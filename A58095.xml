@@ -1,0 +1,957 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A rational method of daily religion consisting of four new offices of ordinary devotion; and a practical directory concerning the reasonableness and use of them. By a Divine of the Church of England.</title>
+            <author>Divine of the Church of England.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1697</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 116 KB of XML-encoded text transcribed from 73 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A58095</idno>
+            <idno type="STC">Wing R305</idno>
+            <idno type="STC">ESTC R220657</idno>
+            <idno type="EEBO-CITATION">99832053</idno>
+            <idno type="PROQUEST">99832053</idno>
+            <idno type="VID">36522</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A58095)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 36522)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2055:17)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A rational method of daily religion consisting of four new offices of ordinary devotion; and a practical directory concerning the reasonableness and use of them. By a Divine of the Church of England.</title>
+                  <author>Divine of the Church of England.</author>
+               </titleStmt>
+               <extent>[12], 132 p.   </extent>
+               <publicationStmt>
+                  <publisher>printed for Percivall Gilbourne, at the George in Chancery-Lane, near Fleet-street,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1697.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Imperfect; tightly bound with some loss of text.</note>
+                  <note>Reproduction of the original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Church of England --  Prayer-books and devotions --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-08</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-11</date>
+            <label>Anne Simpson</label>Sampled and proofread</change>
+         <change>
+            <date>2013-11</date>
+            <label>Anne Simpson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:36522:1"/>
+            <p>A Rational Method OF Daily RELIGION: Conſiſting of <hi>Four New Offices of Ordinary Devotion;</hi> AND <hi>A Practical Directory</hi> Concerning the <hi>Reaſonableneſs</hi> and <hi>
+                  <g ref="char:V">Ʋ</g>ſe</hi> of them.</p>
+            <p>
+               <hi>By a Divine of the Church of</hi> England.</p>
+            <p>
+               <hi>LONDON:</hi> Printed for <hi>Percivall Gilbourne,</hi> at the <hi>George</hi> in <hi>Chancery-Lane,</hi> near <hi>Fleet-ſtreet.</hi> 1697.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:36522:2"/>
+            <pb facs="tcp:36522:2"/>
+            <head>TO THE READER.</head>
+            <opener>
+               <salute>CHRISTIAN READER,</salute>
+            </opener>
+            <p>THE DIRECTORY diſcharging the part both of <hi>Preface</hi> and <hi>Com<g ref="char:EOLhyphen"/>mentary;</hi> the only favour I have now to deſire of thee is to peruſe the whole, or none at all; ſince both parts of the Book have a <hi>neceſſary dependance</hi> one upon the other.</p>
+            <p>I have ventured to publiſh <hi>this ſmall</hi> part of the whole Work
+<pb facs="tcp:36522:3"/> (if I do not flatter my ſelf) fo<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <hi>ſwaying</hi> Reaſons; by it ſelf, fo<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> a Trial of the <hi>World's receptio<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> of the Deſign; and ſooner than <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> once intended, in obedience to <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <hi>particular</hi> Motion of <hi>Divine Pro<g ref="char:EOLunhyphen"/>vidence.</hi>
+            </p>
+            <p>Whilſt I was compoſing it my great Maſter's Honour was al<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> along in my Eye, and it has been, and ſtill is my own earneſt Re<g ref="char:EOLhyphen"/>quest to God, that his Spiri<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> might breath kindly on my At<g ref="char:EOLhyphen"/>tempt; and I hope too it has been the Requeſt of many others, who if their <hi>viſible</hi> Demeanour be the Tranſcript of their <hi>Hearts,</hi> can't but reaſonably be ſuppoſed to have Intereſt at the Court of Heaven.</p>
+            <pb facs="tcp:36522:3"/>
+            <p>Nevertheleſs I am no ſtran<g ref="char:EOLhyphen"/>ger to the <hi>Byaſs</hi> of the Age, or the Magick of old <hi>plauſible popular Titles,</hi> and <hi>admired Names,</hi> or the <hi>Moral</hi> Neceſſity of the <hi>co-operation</hi> of <hi>free A<g ref="char:EOLhyphen"/>gents,</hi> with even the <hi>immedi<g ref="char:EOLhyphen"/>ate</hi> good Motions of God's Spirit, before they can attain their <hi>End;</hi> much more, with external ſuc<g ref="char:EOLhyphen"/>cours that are tendred by ſinful Creatures, in order to make God's Bleſſing on a work of <hi>this</hi> Nature truly compleat, by its proving thoroughly effectual with thoſe who uſe it. And therefore, though the honeſt meaſures I have taken in this <g ref="char:V">Ʋ</g>ndertaking en<g ref="char:EOLhyphen"/>courages me to hope for ſucceſs, with Souls; yet, at the ſame time I have took care to be prepared aforehand for a defeat. My beſt
+<pb facs="tcp:36522:4"/> (though weak) endeavour is my part; Succeſs and Diſappoint<g ref="char:EOLhyphen"/>ment, Honour and Diſhonour are of God's diſpoſal, and either of them in this World, ſhould be chearfully ſubmitted to by a Chriſtian.</p>
+            <p>The truth of it is, ſome <hi>Aſ<g ref="char:EOLhyphen"/>ſaults</hi> muſt be expected from the <hi>Grand Adverſary</hi> of Mankind, whatever be the <hi>Event</hi> of this <hi>Aſſay.</hi> But that God, whom I ſerve and truſt in, is both mighty and good, and will not ſuffer a poor Chriſtian that flies to him for Succour to be the Caitiff, ei<g ref="char:EOLhyphen"/>ther of <hi>Vanity,</hi> or <hi>Deſpondence;</hi> or his good intention to miſs of its Aim, with reſpect to himſelf, if he does not neglect other Branches of Duty, and Perſe<g ref="char:EOLhyphen"/>veres
+<pb facs="tcp:36522:4"/> in a Courſe of entire Fi<g ref="char:EOLhyphen"/>delity to Chriſt unto the End, remembring that the proper Re<g ref="char:EOLhyphen"/>wards of a Chriſtian are not thoſe of this State, but ſuch as will abundantly recompence the chear<g ref="char:EOLhyphen"/>full patience of a ſhort Life.</p>
+            <p>If in ſome places the ſtubborn<g ref="char:EOLhyphen"/>neſs of the Subject, or haſte in the Compoſure of the expreſſive parts of the Directory (for to deal juſtly by the <hi>matter; that</hi> has been well ſtudied) has oc<g ref="char:EOLhyphen"/>caſioned me to be tedious, and rough in my Sentences: I now deſire thee to take first a rough View of the whole Chapter you are reading, and always not to read the Parentheſes, if they be ſo noted by theſe Marks () till you have read to a full Period.</p>
+            <pb facs="tcp:36522:5"/>
+            <p>By this means upon a ſecond reading over the Chapter, the moſt illiterate Reader may un<g ref="char:EOLhyphen"/>derſtand it, and ſo digeſt it the better: ſo alſo if a hard word oc<g ref="char:EOLhyphen"/>cur, that's taken out of another, Language, becauſe more expreſ<g ref="char:EOLhyphen"/>ſive than any in ours; the Con<g ref="char:EOLhyphen"/>nection, if a Man be attent will explain it.</p>
+            <p>The parts unfiniſhed are,</p>
+            <p n="1">
+               <hi>I.</hi> Large penitential Offices of ſolemn Repentance framed accor<g ref="char:EOLhyphen"/>ding to St. <hi>Paul</hi>'s Apoſtolical Model of the ſeveral Gradati<g ref="char:EOLhyphen"/>ons of Repentance.</p>
+            <p n="2">
+               <hi>II.</hi> Large Proſe, Euchariſti<g ref="char:EOLhyphen"/>cal Offices in Honour to the ſe<g ref="char:EOLhyphen"/>veral Attributes of God, and for the moſt ſignal Works and Pro<g ref="char:EOLhyphen"/>vidences
+<pb facs="tcp:36522:5"/> of God with others ſui<g ref="char:EOLhyphen"/>ted to the moſt remarkable Feaſts of the Church.</p>
+            <p n="3">
+               <hi>III.</hi> Variety of occaſional Offices for Sabbaths, New-Tears-Birth-Baptiſm-Ordination-Wedding, &amp; Anniverſary Faſt-Days, and Days of Mourning for the Dead, with Prayers proper to be uſed at Vi<g ref="char:EOLhyphen"/>ſitations of the Sick, and the like, with an ejaculatory Office.</p>
+            <p n="4">
+               <hi>IV.</hi> A large gratulatory Office with Triumphs of Faith, Hope and Charity by way of Anticipa<g ref="char:EOLhyphen"/>tion of the Beatifick Viſion, and Everlaſting Jubilee, as alſo large interceſſive Offices adapted to most poſſible Relations and Sta<g ref="char:EOLhyphen"/>tions of a Chriſtian in this Life.</p>
+            <p n="5">
+               <hi>V.</hi> A large Deetical Office of Vigilance, Deprecations and Pe<g ref="char:EOLhyphen"/>titions for Graces.</p>
+            <p n="6">
+               <pb facs="tcp:36522:6"/>
+               <hi>VI.</hi> A large Office of Abſtra<g ref="char:EOLhyphen"/>ction adapted to the different and inmoſt Self-Conſciouſneſſes of Men in this State with Glances on Death, the ſeparate State, the future Judgment, and the two Eternal States.</p>
+            <p n="7">
+               <hi>VII.</hi> An Office of Sacramental Devotions, oſ which there has been great Numbers, and ſuch as under the Titles of Weekly and Monthly, and ſuch like ſtinted formal Preparations have be<g ref="char:EOLhyphen"/>trayed many to a profanation of it, and filled the Age with un<g ref="char:EOLhyphen"/>worthy confuſed Notions of the Sacrament of the Lord's Sup<g ref="char:EOLhyphen"/>per.</p>
+            <p n="8">
+               <hi>VIII.</hi> Large Offices of ſocia<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Devotion fitted for occaſion of two or more Perſons conjoyn<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Exerciſe of ſocial Repentance for
+<pb facs="tcp:36522:6"/> ſins committed together, as alſo for the Exerciſe of ſocial Grati<g ref="char:EOLhyphen"/>tude for the ſame Mercy, as alſo for Families, Religious Societies, or Fraternities, and the like.</p>
+            <p>To each of which are to be ad<g ref="char:EOLhyphen"/>ded ſuitable Directories by way of Appendix, with ſuitable Diſ<g ref="char:EOLhyphen"/>courſes as ſhall be found moſt proper, prefixed before each, con<g ref="char:EOLhyphen"/>cerning ſolemn Repentance, [ſo<g ref="char:EOLhyphen"/>litary or ſocial] Birth, Rege<g ref="char:EOLhyphen"/>neration, Solitude, Divine Gra<g ref="char:EOLhyphen"/>titude, Gratulation, Fraternal Confeſſion, Heaven, the ſeparate State, Vows, Scope, Contingen<g ref="char:EOLhyphen"/>cies, God, Angels, Heaven, Devils, Eternity, Hell, Self-Penetration, Charity, Pover<g ref="char:EOLhyphen"/>ty of Spirit, Family-Religion, Hope, Religious Societies,
+<pb facs="tcp:36522:7"/> Heavenly Aſpiration, and the like.</p>
+            <p>Which will be done if God permit; the furtherance of thy Prayers is humbly deſired.</p>
+            <closer>
+               <salute>Reader, Farewel.</salute>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:36522:7"/>
+            <head>THE Morning Office OF GRATITUDE.</head>
+            <div n="1" type="class">
+               <head>CLASS. I. Expreſſions of Holy Dread and Filial Confidence, intermix'd.</head>
+               <p>GReat and Glorious <hi>Sove<g ref="char:EOLhyphen"/>reign</hi> of <hi>Heaven</hi> and <hi>Earth,</hi> with the <hi>Grati<g ref="char:EOLhyphen"/>tude</hi> of a <hi>Creature,</hi> and the <hi>Shame</hi> of a <hi>Sinner,</hi> I own thy Works to be full of <hi>Wonder</hi> and
+<pb n="2" facs="tcp:36522:8"/> 
+                  <hi>Love,</hi> tho' my ways have been ful of <hi>Vanity</hi> and <hi>Perverſneſs.</hi>
+               </p>
+               <div n="2" type="part">
+                  <head>2.</head>
+                  <p>But tho' I cannot offer the <hi>Tri<g ref="char:EOLhyphen"/>bute</hi> of a <hi>Cherub,</hi> nor pay the <hi>Grati<g ref="char:EOLhyphen"/>tude</hi> of <hi>Paradiſe</hi> to my great <hi>Crea<g ref="char:EOLhyphen"/>tor;</hi> yet ſince ſo <hi>vaſt</hi> is thy <hi>Mercy,</hi> that thou <hi>ſen<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>eſt thy Son to take hol<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> of fall'n Man;</hi> and in his Name Creatures <hi>uncreatur'd by Apoſtacy,</hi> may find <hi>acceſs</hi> to the <hi>Throne of Grace</hi> and tremendous <hi>Brightneſs<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                     </hi> and fo5 <hi>ſeeking</hi> be <hi>recreatur'd</hi> by his <hi>Grace</hi> and <hi>Spirit.</hi> Be not, O Lord<g ref="char:punc">▪</g> I beſeech thee incens'd, if ſinful Duſt and Aſhes dare in the Name of the <hi>Mighty Jeſus</hi> to bow before <gap reason="illegible" resp="#MURP" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> moſt High God.</p>
+               </div>
+               <div n="3" type="part">
+                  <head>3.</head>
+                  <p>
+                     <gap reason="illegible" resp="#MURP" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>nd <hi>Judge</hi> of <hi>An<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible" resp="#MURP" extent="1 span">
+                           <desc>〈…〉</desc>
+                        </gap>d,</hi> I bluſh to pre<g ref="char:EOLhyphen"/>ſent
+<pb n="3" facs="tcp:36522:8"/> the <hi>Homage</hi> of a <hi>Worm;</hi> much more the <hi>Praiſe</hi> of a <hi>Rebel:</hi> But tho' I <hi>bluſh</hi> to <hi>preſent</hi> it, yet I <hi>dare</hi> not <hi>withhold</hi> it: I am drawn to thee by the <hi>irreſiſtible</hi> violence of that <hi>Love</hi> and that <hi>Blood</hi> which has pav'd a <hi>new and living way to God</hi> for all who withſtand not thy tender of <hi>that</hi> Peace which is a Pearl of ſuch great Price. Verily, Verily, my Lord and my God, now I <hi>may,</hi> and <hi>ought,</hi> and <hi>will</hi> laud and addreſs thee, tho' it be with Trembling and Confuſion: For as <hi>Dread</hi> belongs unto <hi>Creatures</hi> and <hi>Sinners;</hi> ſo doth <hi>Confidence</hi> belong unto the <hi>Immacu<g ref="char:EOLhyphen"/>late,</hi> the <hi>Eternal,</hi> and <hi>only Begotten</hi> Son of God.</p>
+               </div>
+            </div>
+            <div n="2" type="class">
+               <pb n="4" facs="tcp:36522:9"/>
+               <head>CLASS II. Expreſſions of Praiſe both by way of <hi>Recital</hi> and <hi>Addreſs.</hi>
+               </head>
+               <div n="1" type="part">
+                  <head>1.</head>
+                  <p>
+                     <hi>GLory</hi> therefore be to <hi>God, Con<g ref="char:EOLhyphen"/>deſcenſion</hi> to his <hi>Creatures, Grace</hi> and <hi>Mercy, Peace</hi> and <hi>Pur<g ref="char:EOLhyphen"/>gation, Redemption</hi> and <hi>Forgiveneſs</hi> to <hi>me</hi> a <hi>Sinner:</hi> May the Good God, <hi>who pardoneth Iniquity, Tranſ<g ref="char:EOLhyphen"/>greſſion, and Sin,</hi> accept the <hi>In<g ref="char:EOLhyphen"/>cenſe</hi> of a <hi>lowly</hi> Heart.</p>
+               </div>
+               <div n="2" type="part">
+                  <head>2.</head>
+                  <p>Great is the Lord and marvel<g ref="char:EOLhyphen"/>lous, worthy to be prais'd; there there are no bounds of his Great<g ref="char:EOLhyphen"/>neſs.</p>
+               </div>
+               <div n="3" type="part">
+                  <pb n="5" facs="tcp:36522:9"/>
+                  <head>3.</head>
+                  <p>He is <hi>Wonderful</hi> in <hi>Counſel, Migh<g ref="char:EOLhyphen"/>ty</hi> in <hi>Working, Glorious</hi> in <hi>Holineſs, Fearful</hi> in <hi>Praiſes:</hi> He dwells in <hi>in<g ref="char:EOLhyphen"/>acceſſible</hi> Light: The Heaven of Heavens cannot contain him: His Kingdom is an <hi>Everlaſting</hi> King<g ref="char:EOLhyphen"/>dom: His <hi>Dominion</hi> laſteth lon<g ref="char:EOLhyphen"/>ger than Ages: Ten thouſand times ten thouſand, and Thouſands of thouſands of <hi>Glorious Spirits</hi> are the awful Retinue of the Lord God.</p>
+               </div>
+               <div n="4" type="part">
+                  <head>4.</head>
+                  <p>The <hi>Heavens</hi> declare the <hi>Glory</hi> of God; the <hi>Firmament</hi> ſhews his <hi>Handy-work:</hi> One <hi>Day</hi> tells ano<g ref="char:EOLhyphen"/>ther, and one <hi>Night</hi> certi<gap reason="illegible" resp="#MURP" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>es ano<g ref="char:EOLhyphen"/>ther.</p>
+               </div>
+               <div n="5" type="part">
+                  <pb n="6" facs="tcp:36522:10"/>
+                  <head>5.</head>
+                  <p>Thou, Lord, in the beginning didſt lay the Corner-ſtone of the Earth, when the <hi>Morning-Stars</hi> ſang together, and all the <hi>Sons of God</hi> ſhouted for Joy: All the Beaſts of the Foreſt are thine, and ſo are the Cattel on a thouſand Hills.</p>
+               </div>
+               <div n="6" type="part">
+                  <head>6.</head>
+                  <p>
+                     <hi>Fearfully</hi> and <hi>Wonderfully</hi> haſt thou made <hi>Man;</hi> and O that my Soul did ponder it well! Thine Eyes did ſee my Subſtance when I was yet imperfect; and in thy Everlaſting Book were all my Mem<g ref="char:EOLhyphen"/>bers written; Day after Day <hi>were</hi> they <hi>a faſhioning:</hi> To this Day are they <hi>preſerv'd</hi> by thy hand.</p>
+               </div>
+               <div n="7" type="part">
+                  <pb n="7" facs="tcp:36522:10"/>
+                  <head>7.</head>
+                  <p>
+                     <hi>Every Morning</hi> thy Loving Kind<g ref="char:EOLhyphen"/>neſs is renew'd: I laid me down and ſlept, and roſe again, for the Lord <hi>ſuſtain'd</hi> me: O how <hi>dear</hi> are thy <hi>Counſels</hi> unto me, O God, O how <hi>great</hi> is <hi>the ſumm</hi> of them? <note n="*" place="margin">Here par<g ref="char:EOLhyphen"/>ticular Mer<g ref="char:EOLhyphen"/>cies may be inſerted.</note>
+                  </p>
+               </div>
+               <div n="8" type="part">
+                  <head>8.</head>
+                  <p>How ſhould I count them? They are more in number than I can <hi>con<g ref="char:EOLhyphen"/>ceive:</hi> Whenever I awake they are <hi>preſent</hi> with me. Have I not for this reaſon remembred thee on my <hi>Bed,</hi> and thought upon thee when I was waking? Now <hi>do</hi> I ſing and always <hi>will</hi> ſing of thy Mercies be<g ref="char:EOLhyphen"/>times in the <hi>Morning,</hi> even unto thee, O my ſtrength; for thou art
+<pb n="8" facs="tcp:36522:11"/> my Refuge, and my mercifu<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> God.</p>
+               </div>
+            </div>
+            <div n="4" type="class">
+               <head>CLASS IV. The Dedicatory.</head>
+               <p>
+                  <hi>THis</hi> Day I dedicate my ſelf, <hi>Spirit, Soul</hi> and <hi>Body</hi> to thy <hi>Spirit, Honour</hi> and <hi>Service;</hi> and do reſign all my <hi>Care</hi> and <hi>Concerns</hi> to the <hi>Direction</hi> and <hi>Influence</hi> of thy <hi>Providence;</hi> and am <hi>diſpos</hi>'d chear<g ref="char:EOLhyphen"/>fully to embrace all the <hi>Diſpenſa<g ref="char:EOLhyphen"/>tions</hi> of thy <hi>Fatherly</hi> Goodneſs. Thus will I by thy Grace and Aſ<g ref="char:EOLhyphen"/>ſiſtance, throughout my whole Life, wait upon thee in <hi>Holineſs,</hi> that I may at laſt behold thy Power and Glory <hi>everlaſting.</hi>
+               </p>
+               <div n="2" type="part">
+                  <pb n="9" facs="tcp:36522:11"/>
+                  <head>2.</head>
+                  <p>I hate and <hi>abhor</hi> all my <hi>paſt evil</hi> ways, and from the <hi>depth</hi> of my Soul do renounce <hi>mine own</hi> Wickedneſs. <note n="*" place="margin">Here you may confeſs your Conſtitu<g ref="char:EOLhyphen"/>tion Sin, or other Sins.</note>
+                  </p>
+                  <p>O that I may obtain Victory o<g ref="char:EOLhyphen"/>ver my <hi>whole Body of Sin,</hi> and <hi>live!</hi> Then ſhall Jeſus be my <hi>Jeſus</hi> in<g ref="char:EOLhyphen"/>deed, and ſay, <hi>Soul, Be of good cheer, thy ſins are forgiven thee;</hi> and, at the <hi>Great Day,</hi> declare before <hi>Angels</hi> and <hi>Saints,</hi> and <hi>Devils,</hi> and the <hi>Deſperate, Thy monſtrous iniquities are blotted out; They ſhall not be thy ruine. Thou ſhalt live; for I dy'd for the penitent.</hi>
+                  </p>
+               </div>
+               <div n="3" type="part">
+                  <head>3.</head>
+                  <p>Hence 'tis, O Lord, that my Soul <hi>hangs</hi> upon thee: To this pur<g ref="char:EOLhyphen"/>poſe with <hi>extreme Thirſt</hi> of Soul I
+<pb n="10" facs="tcp:36522:12"/> ſeek <hi>thy Strength,</hi> and <hi>thy Face<g ref="char:punc">▪</g>
+                     </hi> O therefore do thou, who delight'ſt not in the <hi>Deſolation,</hi> but <hi>divine Reſurrection</hi> of <hi>Humane Spirits,</hi> chear and repleniſh me with the <hi>Light of thy Countenance;</hi> for without thee we muſt needs be <hi>deſolate.</hi>
+                  </p>
+               </div>
+            </div>
+            <div n="5" type="class">
+               <head>CLASS. V. Acts of Daily Petition for God's Protection and Bleſſing.</head>
+               <p>LORD, I have dedicated my <hi>Judgment</hi> to thee, O <hi>ſhew</hi> me the <hi>way</hi> that I ſhould walk in. I lift up my <hi>Soul</hi> unto thee, Lord, <hi>ſanctifie</hi> it; I have <hi>devoted</hi> my <hi>Spi<g ref="char:EOLhyphen"/>rit,</hi> Lord <hi>ſeparate</hi> the <hi>Light</hi> from the <hi>Darkneſs</hi> thereof, and <hi>refine</hi> it with the <hi>fiery</hi> Baptiſm of the <hi>Holy Ghoſt,</hi> that <hi>thy</hi> Will may be the <hi>Magnet</hi> of <hi>mine.</hi> Lord, I beſeech
+<pb n="11" facs="tcp:36522:12"/> thee, <hi>ſet a Watch</hi> over my <hi>Heart</hi> and <hi>Lips,</hi> that my <hi>Words</hi> and <hi>Medita<g ref="char:EOLhyphen"/>tions</hi> may pleaſe thee.</p>
+               <div n="2" type="part">
+                  <head>2.</head>
+                  <p>O that all my <hi>Actions,</hi> and <hi>In<g ref="char:EOLunhyphen"/>tentions,</hi> and <hi>Diſcourſes,</hi> may be <hi>be<g ref="char:EOLunhyphen"/>gun,</hi> and <hi>govern'd,</hi> and <hi>ended</hi> in thy <hi>Fear!</hi> ſo ſhall the Lord proſper my Handy-work; ſo ſhall my <hi>Studies</hi> thrive under his <hi>Bleſſing,</hi> and all my <hi>Reſolutions</hi> be <hi>eſtabliſh'd:</hi> O that the <hi>Diſpoſals</hi> of my <hi>Heavenly Father</hi> (be they grateful or ungrate<g ref="char:EOLhyphen"/>ful to Fleſh and Blood) may find their Ends anſwer'd by my Demea<g ref="char:EOLhyphen"/>nor <hi>under</hi> and uſe <hi>of</hi> them!</p>
+               </div>
+               <div n="3" type="part">
+                  <head>3.</head>
+                  <p>Arm me, I beſeech thee, with the <hi>Armour of God,</hi> that no pre<g ref="char:EOLhyphen"/>ſumptuous Sin may ever again get the Dominion over me; <hi>Array</hi> my
+<pb n="12" facs="tcp:36522:13"/> 
+                     <hi>Soul</hi> with a <hi>competent Conformity</hi> of Mind to the <hi>Image</hi> of <hi>thy Son,</hi> that I may <hi>grow in Grace</hi> and <hi>heavenly Experience;</hi> that <hi>ſo this,</hi> and <hi>every</hi> remaining Day of my <hi>ſhort</hi> ſtay <hi>here,</hi> may be reflected on with <hi>leſs Sorrow,</hi> and <hi>more ſpiritual</hi> Joy in the Lord, than the foregoing<g ref="char:punc">▪</g> O may thy <hi>Loving Spirit</hi> lead me in the ways of <hi>Evangelical Righ<g ref="char:EOLhyphen"/>teouſneſs!</hi> ſo ſhall the Land of Righteouſneſs be mine Inheritance; and the God of Righteouſneſs my Portion for ever.</p>
+               </div>
+            </div>
+            <div n="6" type="class">
+               <head>CLASS VI. A Catholick Concluſion.</head>
+               <p>LOrd, I beſeech thee, of thine <hi>infinite</hi> Compaſſion, <hi>over-look</hi> my numerous <hi>Infirmities,</hi> accept of this <hi>imperfect Sacrifice,</hi> and of the
+<pb n="13" facs="tcp:36522:13"/> 
+                  <hi>following</hi> Expreſſion of my <hi>Delight</hi> in the <hi>Joys</hi> of the <hi>Church Trium<g ref="char:EOLhyphen"/>phant,</hi> and of my <hi>Commiſeration</hi> of all the <hi>Perils, Straits,</hi> and <hi>Neceſſities</hi> of thy <hi>Iſrael Militant</hi> here on Earth, in the <hi>powerful Name</hi> and <hi>Words</hi> of thine <hi>only Son,</hi> and <hi>Man</hi>'s <hi>only Sa<g ref="char:EOLhyphen"/>viour</hi> JESUS CHRIST:</p>
+               <closer>
+                  <hi>Our Father,</hi> &amp;c.</closer>
+            </div>
+         </div>
+         <div type="text">
+            <pb n="14" facs="tcp:36522:14"/>
+            <head>Noon-Office OF VIGILANCE AND CHARITY.</head>
+            <div n="1" type="class">
+               <head>CLASS I. Vigilance excited, by Expreſ<g ref="char:EOLhyphen"/>ſions of a ſenſe of Man's and the World's Vanity.</head>
+               <div n="1" type="part">
+                  <head>1.</head>
+                  <p>VAnity of Vanities, all is Vanity and Vexation of Spirit.</p>
+               </div>
+               <div n="2" type="part">
+                  <pb n="15" facs="tcp:36522:14"/>
+                  <head>2.</head>
+                  <p>God made Man <hi>upright; little</hi> lower than the <hi>Angels,</hi> and plac'd all <hi>ſublunary</hi> Things under him: But Man hath ſought out ma<g ref="char:EOLhyphen"/>ny <hi>fooliſh Inventions,</hi> and lets ſome <hi>Creature</hi> or other lord it over his Heart, tho' they were all put <hi>under his feet.</hi>
+                  </p>
+               </div>
+               <div n="3" type="part">
+                  <head>3.</head>
+                  <p>For the Lord look'd down from Heaven on the Children of Men, to ſee if there were any ſeeking after God: But oh, how are they gone out of the way! <hi>Deſtruction</hi> and <hi>
+                        <g ref="char:V">Ʋ</g>nhappineſs</hi> is in <hi>their</hi> ways: The way to <hi>Reconciliation</hi> and <hi>Glory</hi> they neither <hi>ſee,</hi> nor <hi>ſeek</hi>
+                  </p>
+               </div>
+               <div n="4" type="part">
+                  <pb n="16" facs="tcp:36522:15"/>
+                  <head>4.</head>
+                  <p>Nay, the <hi>humble</hi> Soul and his Care for <hi>Eternity</hi> is had in deriſion by them; <hi>numerous</hi> are thoſe <hi>Wret<g ref="char:EOLhyphen"/>ches</hi> which combine with the diſ<g ref="char:EOLhyphen"/>orderly <hi>Tendencies</hi> of <hi>Birth,</hi> and the <hi>Princes</hi> of <hi>Darkneſs</hi> to pluck him from <hi>his</hi> God.</p>
+               </div>
+            </div>
+            <div n="2" type="class">
+               <head>CLASS II. Expreſſions of Truſt in God and Holy Reſolution.</head>
+               <div n="1" type="part">
+                  <head>1.</head>
+                  <p>BUt <hi>my</hi> Soul ſhall not run any more after <hi>Idols,</hi> neither ſhall <hi>their</hi> Scoffs make me <hi>draw back;</hi> for I will ſeek the <hi>Kingdom of God,</hi> and Chriſt, and <hi>the</hi> Righteouſneſs there<g ref="char:EOLhyphen"/>of.</p>
+               </div>
+               <div n="2" type="part">
+                  <pb n="17" facs="tcp:36522:15"/>
+                  <head>2.</head>
+                  <p>Seek, <hi>ſeek,</hi> I ſay, O my Soul, the Lord and <hi>his</hi> Strength; ſeek his <hi>Face</hi> evermore: All other things <hi>when weigh'd</hi> in the Balance, are found wanting: God alone can be the Marrow and <hi>real Plenitude</hi> of a Spirit; whoſe are <hi>infinite</hi> Worlds, and all the <hi>Fulneſſes</hi> of the ſame; He, and <hi>He alone,</hi> can be an Enjoyment <hi>adaequate</hi> to <hi>a Will.</hi>
+                  </p>
+               </div>
+               <div n="3" type="part">
+                  <head>3.</head>
+                  <p>O thereſore Love the Lord, who is the Heaven of Angels: He is my ſtony Rock, and my Defence, my Saviour, my God, and my Might, in whom I will truſt; my Buckler, the Horn alſo of my Sal<g ref="char:EOLhyphen"/>vation: I will call upon the Lord, who is worthy to be praiſed; ſo wall I be ſafe from mine Enemies:
+<pb n="18" facs="tcp:36522:16"/> For whoſo dwelleth under <hi>his</hi> De<g ref="char:EOLhyphen"/>fence, doth abide under the Shadow of <hi>the Almighty.</hi>
+                  </p>
+               </div>
+            </div>
+            <div n="3" type="class">
+               <head>CLASS III. An Addreſs to God for Spiritual Strength, and Chriſtian Vio<g ref="char:EOLhyphen"/>lence in general.</head>
+               <p>GReat <hi>Creator</hi> of the <hi>
+                     <g ref="char:V">Ʋ</g>niverſe, Benefactor</hi> of <hi>Angels, Humbler of Devils,</hi> and <hi>Reſtorer</hi> of <hi>Man:</hi> Marvellous for <hi>Strength,</hi> marvellous for <hi>Wiſdom,</hi> and marvellous for <hi>Goodneſs:</hi> Thou haſt promis'd to hear them that call upon thee faith<g ref="char:EOLhyphen"/>fully in time of Trouble; O do thou now ſay unto my Soul, in this ſtate of Difficulty, <hi>I am thy Salvation.</hi> Pity, O Lord, my <hi>dark<g ref="char:EOLhyphen"/>ned</hi> Mind; <hi>cleanſe</hi> a Heart ſtain'd with <hi>Sin.</hi> Terrible <hi>Hoſts</hi> thou
+<pb n="19" facs="tcp:36522:16"/> ſeeſt, O Lord, do encompaſs my poor Soul; Thouſands fall <hi>beſide</hi> me, and thouſands <hi>behind</hi> me, and ten thouſands round <hi>about</hi> me: <hi>Thrones</hi> and <hi>Principalities</hi> plot a<g ref="char:EOLhyphen"/>gainſt us, and thoſe whom we are too apt (<hi>becauſe of Senſe</hi>) to reckon our Beſt Friends, do <hi>enſnare</hi> and <hi>betray</hi> us. But alas! tho' we are <hi>beleper'd</hi> with <hi>Guilt,</hi> tho' we are near the <hi>Portals</hi> of Death, and the <hi>Talons</hi> of <hi>Hell,</hi> how apt are we to put <hi>the evil Day</hi> far from us? Wherefore, I beſeech thee, do thou, by a Divine Power, make me conſtantly <hi>ſenſible</hi> of <hi>Death</hi> and <hi>Judgment,</hi> and the <hi>Tortures</hi> of the <hi>Damn'd;</hi> inveſt my Soul with <hi>that Noble Violence</hi> wherewith the <hi>King<g ref="char:EOLhyphen"/>dom of Heaven</hi> muſt be taken. O my God, I know <hi>thy Grace,</hi> and <hi>that</hi> only is ſufficient for me; work in me therefore, I beſeech thee, ef<g ref="char:EOLhyphen"/>fectually in the <hi>inner</hi> Man by thy Spirit, that I may <hi>habitually</hi> will
+<pb n="20" facs="tcp:36522:17"/> and do according to thy goo<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Pleaſure; ſo ſhall I be <hi>ſtrong</hi> in<g ref="char:EOLunhyphen"/>deed, even <hi>in the Lord, and th<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> Power of his Might,</hi> and be <hi>mor<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> than Conqueror</hi> thro' Chriſt, an<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> hold out to the end; ſo ſhall I no<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> be diſmay'd for any <hi>Terror</hi> by <hi>Night,</hi> nor for the <hi>Peſtilence</hi> tha<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> inviſibly wounds at <hi>Noon;</hi> ſo ſhal<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> I triumph the Triumphs of thy Saints, and trample upon <hi>Dangers, Death,</hi> and <hi>Devils,</hi> and keep a per<g ref="char:EOLhyphen"/>petual Jubilee with my God and his Chriſt.</p>
+            </div>
+            <div n="4" type="class">
+               <pb n="21" facs="tcp:36522:17"/>
+               <head>CLASS IV. Prayers for particular Graces, collected out of our Bleſſed Lord's Sermon on the Mount, and St. <hi>Paul.</hi>
+               </head>
+               <p>AND to the end, O Lord, I may be found in the Bleſ<g ref="char:EOLhyphen"/>ſed Number of thoſe who are Chriſt's Diſciples <hi>indeed,</hi> make me, I beſeech thee, <hi>poor in Spirit,</hi> a <hi>godly</hi> Mourner, <hi>meek, hungry,</hi> and <hi>thirſty</hi> after <hi>Righteouſneſs, merciful, pure in Heart,</hi> diſpos'd to promote <hi>Peace</hi> and <hi>
+                     <g ref="char:V">Ʋ</g>nity,</hi> ready to be per<g ref="char:EOLhyphen"/>ſecuted <hi>for Righteouſneſs ſake,</hi> and to rejoice when I am revil'd, in<g ref="char:EOLhyphen"/>ſtead of reviling again. O ſuffer no <hi>worldly</hi> Emulation to ſway in my Heart, and to taint my Faſt<g ref="char:EOLhyphen"/>ings and Prayers. Give me a <hi>Heavenly Prudence,</hi> that my Light
+<pb n="22" facs="tcp:36522:18"/> may <hi>ſhine</hi> before Men, and I may nevertheleſs do many Good Works <hi>ſecretly,</hi> looking for my <hi>Praiſe</hi> and <hi>Reward</hi> from <hi>thee:</hi> Give me cou<g ref="char:EOLhyphen"/>rage to pluck out my <hi>ſcandalous Eye,</hi> and to cut off the <hi>ſcandalous Hand</hi> of my corrupt Nature, and all Superfluity of <hi>Tongue</hi> and <hi>Thought</hi> for the mean Concerns of this Life. O may <hi>thy</hi> Name never be utter'd without <hi>Reverence</hi> by me<g ref="char:punc">▪</g> Suffer me not <hi>ſo</hi> to be <hi>angry</hi> with my Brother, <hi>as</hi> to ſin, or to be a <hi>Judge,</hi> but rather a <hi>Doer</hi> of thy <hi>Law.</hi> Make me ſo mindful of my own <hi>Ingratitude,</hi> and of that great Goodneſs which has <hi>nevertheleſs</hi> been continu'd by thee to me, that in imitation of <hi>this</hi> thy great <hi>Perfe<g ref="char:EOLhyphen"/>ction,</hi> I may <hi>forgive, bleſs,</hi> and <hi>pray for</hi> mine <hi>Enemies.</hi> Drive <hi>earthly</hi> Solicitude out of my Mind, that (my <hi>Diſtributions</hi> to the Ne<g ref="char:EOLhyphen"/>ceſſities of the <hi>Saints</hi> laying up for me a Treaſure in Heaven) my
+<pb n="23" facs="tcp:36522:18"/> 
+                  <hi>Heart</hi> may be there <hi>alſo<g ref="char:punc">▪</g>
+                  </hi> O <hi>illu<g ref="char:EOLhyphen"/>minate</hi> my Mind, that <hi>that</hi> Faculty which thou haſt planted in me to be <hi>my Light,</hi> may not by being dark it ſelf, overwhelm me all over with horrible Darkneſs. I <hi>earneſtly</hi> entreat thee to lay <hi>a deep Foundation of Faith within me,</hi> that like a wiſe Builder I may build up<g ref="char:EOLhyphen"/>on <hi>the Rock,</hi> and be proof againſt <hi>Storms,</hi> and <hi>Waves,</hi> and <hi>Tempeſts;</hi> always <hi>striving more</hi> and <hi>more ear<g ref="char:EOLhyphen"/>neſtly</hi> to <hi>enter in</hi> at the <hi>ſtrait</hi> Gate, that I may bring forth the ex<g ref="char:EOLhyphen"/>cellent Fruits of a Mind <hi>thoroughly chang'd,</hi> and with <hi>diligence</hi> and <hi>trembling</hi> do thoſe things which my Lord commands: O that when my Lord comes, when Death ſeizes me, I may be found ſo doing! O <hi>ſubject</hi> my <hi>Body</hi> to my <hi>Soul,</hi> and my <hi>Soul</hi> entirely unto <hi>thee,</hi> and <hi>erect</hi> and <hi>enlarge</hi> the <hi>Kingdom of God in it,</hi> that it may be fill'd with an <hi>equitable Diſpoſition</hi> of behaving it
+<pb n="24" facs="tcp:36522:19"/> ſelf ſo towards <hi>God</hi> and <hi>God Man<g ref="char:punc">▪</g> Angels</hi> and <hi>Devils,</hi> its <hi>Fellow Crea<g ref="char:EOLhyphen"/>tures</hi> and the whole <hi>ſubordinat<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> Creation,</hi> as becomes a Chriſtian and ſo be fill'd with <hi>Peace</hi> and <hi>Joy in the Holy Ghoſt.</hi> Finally, O Lord ſince thou haſt promis'd it to thoſe who ask it of thee with <hi>Faith</hi> and <hi>Purity, Importunateneſs</hi> and <hi>Humi<g ref="char:EOLhyphen"/>lity;</hi> give me, I beſeech thee, all <hi>Celeſtial</hi> Favours, and truly va<g ref="char:EOLhyphen"/>luable Bounties in that ineſtimable <hi>Gift of Gifts, thy Holy Spirit.</hi> Lord<g ref="char:punc">▪</g> how ſhall our Souls be nurs'd for Heaven, without the ſupport of <hi>this</hi> Manna of the Seraphim? Give me therefore thy Spirit, I do again and again beſeech thee, elſe I periſh to all <hi>Eternity:</hi> Lord, I <hi>truſt</hi> in thee, O let me not be confoun<g ref="char:EOLhyphen"/>ded.</p>
+               <div n="2" type="part">
+                  <pb n="25" facs="tcp:36522:19"/>
+                  <head>2.</head>
+                  <p>O my God, thy Mercies towards me are ineffable; wherefore I <hi>pre<g ref="char:EOLhyphen"/>ſent</hi> my Body (which is daily fed and preſerv'd by thy Bounty) be<g ref="char:EOLhyphen"/>fore thee: O do thou ſo renew my Mind, that it may be transform'd from the World to thy Likeneſs, and make my Body and all my Actions in their Station (wherein I <hi>am,</hi> or <hi>hereafter</hi> may be plac'd by thy <hi>Providence</hi>) a <hi>living Sacrifice, holy, acceptable unto thee;</hi> and I may experimentally <hi>prove what is that good and acceptable Will of God.</hi>
+                  </p>
+               </div>
+               <div n="3" type="part">
+                  <head>3.</head>
+                  <p>Awe me, I beſeech thee, with a ſenſe of thy Greatneſs and my own Meanneſs, that I may <hi>not think of my ſelf more highly</hi> than I ought to think; ſupply me with Grace <hi>to
+<pb n="26" facs="tcp:36522:20"/> have my Converſation in Heaven, an<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> with all Men, in all godly ſimplicity<g ref="char:punc">▪</g> to love without diſſimulation, to abhor that which is evil,</hi> and <hi>to ſtand faſt in the Lord; to prefer others in Ho<g ref="char:EOLhyphen"/>nour</hi> before my ſelf; <hi>not to be ſloth<g ref="char:EOLhyphen"/>ful in Buſineſs; to be fervent in Spi<g ref="char:EOLhyphen"/>rit;</hi> to <hi>rejoice in</hi> the <hi>Hope; to be pa<g ref="char:EOLhyphen"/>tient in Tribulation, and inſtant in Prayer; to rejoice with them that re<g ref="char:EOLhyphen"/>joice; to weep with them that weep<g ref="char:punc">▪</g>
+                     </hi> in indifferent things, <hi>to be of the ſame mind with others; not to min<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> high things, but to condeſcend; not to be wiſe in my own Conceit; not be overcome of evil, but to overcome evi<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> with good.</hi>
+                  </p>
+                  <closer>For Chriſt his ſake, <hi>O my Father and his Father,</hi> grant <hi>theſe</hi> Pe<g ref="char:EOLhyphen"/>titions.</closer>
+               </div>
+               <div n="4" type="part">
+                  <pb n="27" facs="tcp:36522:20"/>
+                  <head>4.</head>
+                  <p>Give me Grace, <hi>O Father of Lights,</hi> to add to my <hi>Faith, Forti<g ref="char:EOLhyphen"/>tude;</hi> and to <hi>Fortitude, Temperance;</hi> and to <hi>Temperance, Piety;</hi> and to <hi>Piety, Lowlineſs;</hi> and to <hi>Lowlineſs, Charity: To be ſubject to the higher Powers; to render to all their Dues;</hi> to <hi>esteem the Laborers in thy Vineyard for their Works ſake;</hi> to live up to my Light, and <hi>to walk honeſtly as in the day; to pleaſe my Neighbour to Edification; to bear the Infirmities of the Weak,</hi> and the <hi>Reproaches</hi> of the <hi>Wicked;</hi> to <hi>reſiſt the Devil, mortifie the Body,</hi> and <hi>be one Spirit with the Lord.</hi>
+                  </p>
+                  <closer>This I beg for the ſake of <hi>Chriſt</hi> Jeſus; hear me therefore, O my God.</closer>
+               </div>
+               <div n="5" type="part">
+                  <pb n="28" facs="tcp:36522:21"/>
+                  <head>5.</head>
+                  <p>Thou ſhalt love the Lord thy God with all thy Heart, and all thy Soul, and all thy Mind, and all thy Strength.</p>
+                  <p>
+                     <hi>This is the Firſt and Great Com<g ref="char:EOLhyphen"/>mandment; and I cannot but own, my God, that it is moſt Holy, and Juſt, and Good.</hi>
+                  </p>
+                  <p>Thou ſhalt love thy Neighbour as thy ſelf.</p>
+                  <p>
+                     <hi>This is the next, and like unto it.</hi>
+                  </p>
+               </div>
+               <div n="6" type="part">
+                  <head>6.</head>
+                  <p>But, Lord, who is ſufficient for <hi>theſe</hi> things? Where is the Man that liveth and tranſgreſſeth not theſe Laws? O therefore, Lord, enter not into Judgment with me; but for Chriſt's ſake pardon my manifold Violations of thy Laws;
+<pb n="29" facs="tcp:36522:21"/> and for the future, I beſeech thee <hi>fortifie</hi> me with a plentiful Portion of thy Grace and Spirit: Hence<g ref="char:EOLhyphen"/>forward I will not receive the <hi>for<g ref="char:EOLhyphen"/>mer</hi> in vain, nor quench the <hi>latter;</hi> but will love my God with a <hi>Su<g ref="char:EOLhyphen"/>pream</hi> Love <hi>entirely</hi> and <hi>conſtantly,</hi> and my Neighbour as my ſelf, and my ſelf according as my Love of God ſhall recommend me<g ref="char:punc">▪</g> So help my God.</p>
+               </div>
+            </div>
+            <div n="5" type="class">
+               <pb n="30" facs="tcp:36522:22"/>
+               <head>CLASS V. Office of Charity,</head>
+               <div n="1" type="part">
+                  <head>PART I. The Gratulatory of the Church Triumphant.</head>
+                  <p>HAppy are thoſe Spirits that wait on God's Throne, and do continually miniſter with Hale<g ref="char:EOLhyphen"/>lujahs to the Holy, Holy, Holy God, and the Lamb for ever and ever.</p>
+                  <p>Happy and Bleſſed are thoſe Saints, who live in the Regions of inacceſſible Light, where neither <hi>Moral</hi> nor <hi>Natural</hi> Death hath any place.</p>
+                  <p>Happy indeed are they that are made eternal Prieſts and Kings to God, and are above the need of Care
+<pb n="31" facs="tcp:36522:22"/> and Watching; gratulated be their Joy May it be mine, and mine theirs, in the eternal Salvation of my Soul.</p>
+                  <div n="2" type="section">
+                     <head>2.</head>
+                     <div type="subsection">
+                        <head>A Heavenly Aſpiration.</head>
+                        <p>My Soul is a thirſt for the Li<g ref="char:EOLhyphen"/>ving God: This is the Commu<g ref="char:EOLhyphen"/>nion which my Soul is inflam'd with Longings after: O that I had Wings like a Dove! then ſhould I flee away and be at reſt: When ſhall I gratulate, and be gratulated there! O that I may be united to my God! When ſhall my Exile be at an end! When ſhall I ſee and know him, as I am ſeen and known! O that I were certify'd that I am a true Son and Servant of God, that I might long to be diſſolv'd, and ſay, How long, Lord, how long holy and true?</p>
+                     </div>
+                     <div type="subsection">
+                        <pb n="32" facs="tcp:36522:23"/>
+                        <head>The Submiſſion.</head>
+                        <p>But be this as the Lord will, whoſe it is to appoint the number of the Days of his Servant, if ſo be that while Days do not commence Eternity, I may number them and be wiſe, and fit my ſelf for my great Change.</p>
+                        <closer>This is my Deſire, Lord, regard it; this ſhall be my Endea<g ref="char:EOLhyphen"/>vour, Lord, further it.</closer>
+                     </div>
+                  </div>
+               </div>
+               <div n="2" type="part">
+                  <head>PART II. Interceſſion for the Church Mi<g ref="char:EOLhyphen"/>litant.</head>
+                  <div n="1" type="section">
+                     <head>1.</head>
+                     <p>MAy the Creator of all Uni<g ref="char:EOLhyphen"/>verſes, both <hi>viſible</hi> and <hi>in<g ref="char:EOLhyphen"/>viſible,</hi> viſit the dark parts of the
+<pb n="33" facs="tcp:36522:23"/> Earth with the glorious Beams of the Sun of Righteouſneſs, that the Knowledge of Chriſt crucify'd may fill the Earth, as the Waters cover the Sea: Let the People praiſe thee, O God, yea, let all Peoples, Nations and Languages praiſe thee.</p>
+                  </div>
+                  <div n="2" type="section">
+                     <head>2.</head>
+                     <p>And oh that thoſe Countries which enjoy the Goſpel, may not ſlander it ſo ſhamefully by the black and blaſphemous Lives of its Pro<g ref="char:EOLhyphen"/>feſſors! Lord, grant that the Power of thy Goſpel may diſplay the Luſtre of its native <hi>Brightneſs, Simplicity,</hi> and <hi>Purity,</hi> in our Lives.</p>
+                  </div>
+                  <div n="3" type="section">
+                     <head>3.</head>
+                     <p>Reſtore, I beſeech thee, <hi>Beauty</hi> and <hi>Diſcipline, Soundneſs</hi> of <hi>Faith,</hi> genuine Ordinances, and Decency and Perfection of Worſhip to all
+<pb n="34" facs="tcp:36522:24"/> Eccleſiaſtical Bodies profeſſing Chriſtianity: And to this end, give to them ſuch true Chriſtian Inge<g ref="char:EOLhyphen"/>nuity, as that they may all <hi>ſeve<g ref="char:EOLhyphen"/>rally</hi> and <hi>unanimouſly own, lament,</hi> and <hi>reform</hi> their different <hi>Exceſſes</hi> and <hi>Defects,</hi> that as there is but one true Chriſt, and but one true <hi>Chri<g ref="char:EOLhyphen"/>ſtianity,</hi> which can ſecure a Soul of Happineſs; ſo we may all glorifie thee the ſame <hi>God</hi> and <hi>Father</hi> of us all, with one <hi>Mind,</hi> and with one <hi>Mouth.</hi>
+                     </p>
+                  </div>
+                  <div n="4" type="section">
+                     <head>4.</head>
+                     <p>Look down, O Lord, I beſeech thee, from the Habitation of thy Glory, with a <hi>ſpecial</hi> Eye of Fa<g ref="char:EOLhyphen"/>vour on <hi>this Church</hi> and <hi>Kingdom,</hi> which thou haſt ſo long bleſs'd with many ſignal Mercies, and pre<g ref="char:EOLhyphen"/>ſerv'd in ſuch amazing and endea<g ref="char:EOLhyphen"/>ring Methods of Providence: <hi>Par<g ref="char:EOLhyphen"/>don</hi> our great and crying <hi>Abuſes</hi> of
+<pb n="35" facs="tcp:36522:24"/> the ſame; and wherein ſoever <hi>all Orders</hi> of Men amongſt us, in our <hi>own</hi> and the days of our <hi>Forefathers,</hi> have fallen ſhort of the Glory of God; let it not any longer, I pray thee, be laid to our charge: Put a ſtop to that <hi>Latitude</hi> of <hi>Life</hi> and <hi>Opinion</hi> which divides and corrupts us: O Lord, <hi>reform</hi> us if we are ſtill reformable, that we may not be deliver'd over into the Will of our Enemies, whoſe Mercies are cruel.</p>
+                  </div>
+                  <div n="5" type="section">
+                     <head>5.</head>
+                     <p>Guard with the Guardianſhip of thy <hi>Holy</hi> Angels, the <hi>Sacred</hi> Perſon of <hi>William our King;</hi> grant that all his <hi>Deſigns</hi> and <hi>
+                           <g ref="char:V">Ʋ</g>ndertakings</hi> may be ſo truly <hi>Chriſtian</hi> and <hi>Honourable,</hi> that they may prove in the end <hi>ſucceſsful:</hi> Let no Weapon form'd againſt him proſper; and whenſo<g ref="char:EOLhyphen"/>ever the number of his Days on
+<pb n="36" facs="tcp:36522:25"/> Earth ſhall be fulfill'd, grant that he may be found ſuch a Conquerour of all his <hi>ſpiritual</hi> and <hi>temporal</hi> Ene<g ref="char:EOLhyphen"/>mies, as may make Death to him a kind <hi>Tranſlation</hi> of his Soul into a World of <hi>glorious</hi> Spirits: Bleſs him in his <hi>Royal</hi> Relatives, and eſpe<g ref="char:EOLhyphen"/>cially <hi>Catherine the Queen-Dowager, her Royal Highneſs the Princeſs</hi> Ann <hi>of</hi> Denmark: <hi>Counſel,</hi> O Lord, our <hi>Counſellors,</hi> and teach our <hi>Senators true</hi> Wiſdom. Plant a true Affection for the Welfare of true Piety and <hi>theſe</hi> Kingdoms in all the <hi>Nobility, Judges,</hi> and <hi>Inferior Magiſtrates,</hi> that <hi>Righteouſneſs</hi> may run down like a mighty Stream, and there may be no Complaints of Oppreſ<g ref="char:EOLhyphen"/>ſion in our Streets.</p>
+                  </div>
+                  <div n="6" type="section">
+                     <head>6.</head>
+                     <p>
+                        <hi>Showr</hi> down a very liberal Por<g ref="char:EOLhyphen"/>tion of thy Spirit on all that are ſeparated to wait at <hi>thine</hi> Altar;
+<pb n="37" facs="tcp:36522:25"/> give them all a <hi>commanding</hi> Senſe of their <hi>own</hi> Inſufficiency of themſelves (and Sufficiency in and by Chriſt) to <hi>turn</hi> many to <hi>Righteouſneſs;</hi> of the great <hi>Dignity</hi> of their Office; of the infinite <hi>Value</hi> of <hi>Souls,</hi> and <hi>that Blood</hi> which was ſhed for them; and of the Greatneſs of their <hi>Truſt;</hi> and of <hi>that Account</hi> which at the laſt Day will be exacted from them. Enflame them with a <hi>genuine</hi> Zeal <hi>from above</hi> for thy Glory, that their Loins may be always girt for every good Enterprize which may promote the Plantation of New <hi>Colonies</hi> of Souls in Heaven. Adorn them with <hi>Meekneſs</hi> and <hi>Prudence, Circumſpection</hi> and <hi>Humility,</hi> that they may be burning and ſhining Lights in this perverſe Generation; that ſo they may recover the <hi>droo<g ref="char:EOLhyphen"/>ping</hi> Credit of their <hi>Sacred Function,</hi> and manifeſt it to be no leſs Ho<g ref="char:EOLhyphen"/>nourable in the ſight of <hi>God</hi> and Angels, than 'tis ſlighted by Men
+<pb n="38" facs="tcp:36522:26"/> of <hi>ſcornful</hi> and <hi>licentious Minds</hi> and <hi>Manners. Sublimate</hi> their Minds with a noble Degree of <hi>Sincerity,</hi> that they may divide the Word without deceit, and without re<g ref="char:EOLhyphen"/>ſerve. Set their Faces like a Flint againſt the reigning Impudence of the Age, and againſt the unjuſt Re<g ref="char:EOLhyphen"/>proaches of unreaſonable and diſ<g ref="char:EOLhyphen"/>orderly Men; and in what reſpect ſoever they may ſometimes happen to be partly too Juſt, may they thereby be provoked to an <hi>Holy Jealouſie</hi> over themſelves. O for<g ref="char:EOLhyphen"/>tifie them with the Courage of a <hi>Baptiſt,</hi> that they may denounce the Terrors of the Lord againſt all Impiety, without partiality or re<g ref="char:EOLhyphen"/>ſpect of Perſons, rebuking Vice boldly, both in ſeaſon and out of ſeaſon, with that <hi>ſpiritual</hi> Majeſty and Authority, and that degree of <hi>Faith</hi> and <hi>Faithfulneſs,</hi> which be<g ref="char:EOLhyphen"/>comes the Embaſſadors of Chriſt, and the Stewards of the Myſteries
+<pb n="39" facs="tcp:36522:26"/> of the <hi>Goſpel.</hi> O ſend skilful and la<g ref="char:EOLhyphen"/>borious Husbandmen into thy Vine<g ref="char:EOLhyphen"/>yard, in the midſt of our great di<g ref="char:EOLhyphen"/>ſtreſs. Furniſh all <hi>Biſhops</hi> with a wiſe and <hi>diſcerning</hi> Spirit, that they may lay hands ſuddenly on no Man; but ſtock the Church with ſuch <hi>Holy</hi> and <hi>Judicious,</hi> ſuch <hi>Active</hi> and <hi>Orthodox</hi> Prieſts, as may ho<g ref="char:EOLhyphen"/>nourably and manfully employ the Power of <hi>the Keys;</hi> put to <hi>ſhame</hi> and <hi>ſilene</hi> all Gainſayers, and win many Strangers, nay, even profeſt Enemies, over to Chriſt, that ſo having cultivated the Seeds of Hea<g ref="char:EOLhyphen"/>ven in themſelves and others, they may ſtand with great Joy before Chriſt's Tribunal, and ſave both their own and the Souls of them who are committed to their Care. Lord, of thy abundant and unboun<g ref="char:EOLhyphen"/>ded Goodneſs, do thou haſten this Enlargement of thy true Inviſible Church: O how long, how long, O our God, ſhall it be before the
+<pb n="40" facs="tcp:36522:27"/> great Affairs of Eternity proſper in their hands!</p>
+                  </div>
+                  <div n="7" type="section">
+                     <head>7.</head>
+                     <p>Do thou ſo proſper the Educa<g ref="char:EOLhyphen"/>tion of our Youth in our Univer<g ref="char:EOLhyphen"/>ſities, and other Seminaries of Lear<g ref="char:EOLhyphen"/>ning, that the <hi>Publick Spiritedneſs, Profound Learning,</hi> and <hi>Generous Pie<g ref="char:EOLhyphen"/>ty</hi> of our Poſterity, may ſhame the <hi>Selfiſhneſs, conceited Ignorance,</hi> and <hi>Degeneracy</hi> of <hi>this</hi> preſent Genera<g ref="char:EOLhyphen"/>tion.</p>
+                  </div>
+                  <div n="8" type="section">
+                     <head>8.</head>
+                     <p>Give to <hi>Children, Servants,</hi> and all <hi>Inferiors, Docility</hi> and <hi>Submiſſion;</hi> and to all <hi>Parents, Masters,</hi> and <hi>Benefactors,</hi> the Gift of wiſe In<g ref="char:EOLhyphen"/>ſpection and Conduct, that their Management of thoſe that are un<g ref="char:EOLhyphen"/>der them, may not fail of thy Bleſſing, and the making them prove
+<pb n="41" facs="tcp:36522:27"/> Bleſſings to themſelves and the whole Community in their ſeveral <hi>Stations, Vocations,</hi> and <hi>Relations.</hi>
+                     </p>
+                  </div>
+                  <div n="9" type="section">
+                     <head>9.</head>
+                     <p>
+                        <hi>Reward</hi> all that have done me good, with the Rewards of the <hi>better</hi> ſort: <hi>Pardon</hi> and <hi>pacifie</hi> all that have <hi>wrong'd</hi> or <hi>ſlander'd</hi> me: Blaſt all <hi>malicious</hi> Intrigues, and breathe kindly on all laudable En<g ref="char:EOLhyphen"/>deavours.</p>
+                  </div>
+                  <div n="10" type="section">
+                     <head>10.</head>
+                     <p>Sanctifie all Afflictions to all afflicted Perſons; and as ſoon as the ends of thy Fatherly Good<g ref="char:EOLhyphen"/>neſs have been anſwer'd, do thou ſpeedily deliver them.</p>
+                  </div>
+                  <div n="11" type="section">
+                     <pb n="42" facs="tcp:36522:28"/>
+                     <head>11.</head>
+                     <p>Finally, I laud and magnifie thy Holy Name, in the behalf of my Country, for all thy Mercies con<g ref="char:EOLhyphen"/>ferr'd on me in my National Capa<g ref="char:EOLhyphen"/>city.</p>
+                  </div>
+                  <div n="12" type="section">
+                     <head>12.</head>
+                     <p>Lord, pardon my manifold In<g ref="char:EOLhyphen"/>firmities, and accept of this poor Tribute of Worſhip, in the Mighty Name of Chriſt, and concluded with that compleat Form of Prayer which he himſelf hath taught us:</p>
+                     <closer>
+                        <hi>Our Father,</hi> &amp;c.</closer>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div type="text">
+            <pb n="43" facs="tcp:36522:28"/>
+            <head>Evening Offices OF <hi>Daily Repentance.</hi>
+            </head>
+            <div n="1" type="class">
+               <head>CLASS I. A PRAYER, Proper to be us'd before the Evening Office of Self-Refle<g ref="char:EOLhyphen"/>ction.</head>
+               <div n="1" type="part">
+                  <head>1.</head>
+                  <p>INcomprehenſible <hi>Soveraign</hi> of the <hi>World,</hi> thou art <hi>encircled</hi> with <hi>Light;</hi> with thee there can be no
+<pb n="44" facs="tcp:36522:29"/> Darkneſs; for the <hi>Dahkneſs</hi> and <hi>Light</hi> to thee are both alike: The higheſt <hi>Heights</hi> and the deepeſt <hi>Depths;</hi> even <hi>Angels</hi> and <hi>Devils; Heaven</hi> and <hi>Hell</hi> are <hi>naked</hi> before thee; How much more then the <hi>Hearts</hi> of the Children of <hi>Men.?</hi>
+                  </p>
+               </div>
+               <div n="2" type="part">
+                  <head>2.</head>
+                  <p>The <hi>Great</hi> and <hi>Good</hi> God print a <hi>firm</hi> and <hi>lively</hi> Senſe of this <hi>All-ſearchingneſs</hi> of his Nature on my Mind, that by being always mind<g ref="char:EOLhyphen"/>ful of the piercing <hi>Conſciouſneſs</hi> of him <hi>with whom I have to do,</hi> I may always <hi>act</hi> and <hi>ſpeak</hi> and <hi>intend,</hi> as in the <hi>Preſence</hi> of the <hi>Higheſt,</hi> and by a profound Reverence of thy unſpotted <hi>Purity</hi> and unlimitted <hi>Preſence,</hi> I may be excited to make it the great Buſineſs of my Life, to <hi>cleanſe</hi> my ſelf daily more and more from all <hi>Filthineſs of Fleſh and Spirit.</hi>
+                  </p>
+               </div>
+               <div n="3" type="part">
+                  <pb n="45" facs="tcp:36522:29"/>
+                  <head>3.</head>
+                  <p>Particularly I intreat God at this time to <hi>enlarge</hi> my Conſcience with the Preſence of <hi>that</hi> Spirit which <hi>ſearcheth</hi> the very <hi>Depths of God,</hi> that I may dexterouſly apply the <hi>Maxims</hi> of my <hi>Bleſſed Lord</hi> to the ſtate of my Soul, and paſs an <hi>im<g ref="char:EOLhyphen"/>partial</hi> Sentence upon my Behaviour <hi>this</hi> day: O place me in a <hi>clear</hi> Light to my ſelf; O enable me to re-call to my Memory all the <hi>Actions,</hi> Words, and Thoughts, that not the <hi>leaſt</hi> Rebellion may be <hi>over<g ref="char:EOLhyphen"/>look'd:</hi> I know, O Lord, to what a gracious and wonderful Being I offer this Requeſt; all Natures lie diſſected in thy <hi>infinite</hi> Mind; how therefore ſhould any Creviſe of my Soul be hid from thee? <hi>
+                        <g ref="char:V">Ʋ</g>niverſal</hi> Knowledge is the <hi>Lord</hi>'s, and to Him alone it does belong: <hi>Such</hi> Knowledge is too wonderful for
+<pb n="46" facs="tcp:36522:30"/> Man, What Creature is there that can attain unto it? The Knowledge of <hi>my ſelf,</hi> Lord, is the ſubject o<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> 
+                     <hi>my</hi> Petition; a Knowledge which is moſt <hi>neceſſary</hi> for, and which (with thy Bleſſing) is <hi>attainable</hi> by me: O Witneſs of all my Ways, thy <hi>Wiſdom</hi> can impart to me this Gift; thy <hi>Goodneſs</hi> will not ſuffer thee to let ſuch an uſeful Purſuit go with<g ref="char:EOLhyphen"/>out a Bleſſing: O therefore, I be<g ref="char:EOLhyphen"/>ſeech thee, make the Method of my Purſuit acceptable in thy ſight, and ſo proſper it; whatever things thou think'ſt fit to keep ſecret, ſuffer not any wilful ſin to lie hid<g ref="char:EOLhyphen"/>den from me; and if my preſent Recollection diſcovers any wilful Sin, or Sins, that has been hitherto undiſcern'd by me; do thou direct and enable me ſo to bewail and la<g ref="char:EOLhyphen"/>ment it (<hi>or them</hi>) and whatſoever new Guilt of this Day may be charg'd upon me by my Conſcience as never to ſink under the ever<g ref="char:EOLhyphen"/>laſting
+<pb n="47" facs="tcp:36522:30"/> 
+                     <hi>Terrour</hi> of the <hi>Flame,</hi> or the <hi>Horrour</hi> of the <hi>Dark,</hi> where there is endleſs Weeping and gnaſhing of Teeth: O bow down thine Ear to this humble Deſire, even for <hi>Jeſus Chriſt</hi> his ſake; to whom with thee, Father, and the Holy Ghoſt, all <hi>Honour, Praiſe,</hi> and <hi>Glory,</hi> as by <hi>Mights</hi> and <hi>Thrones, Principa<g ref="char:EOLhyphen"/>lities</hi> and <hi>Dominions, Angels</hi> and <hi>Archangels,</hi> and all the <hi>Triumphant</hi> Hoſt above; ſo by <hi>me</hi> be aſcrib'd for ever and ever.</p>
+                  <closer>Amen.</closer>
+               </div>
+            </div>
+            <div n="2" type="class">
+               <pb n="48" facs="tcp:36522:31"/>
+               <head>CLASS II.</head>
+               <p>After the careful Application of that daily Method of <hi>Self-Examination,</hi> preſcrib'd in the Directory; if your Con<g ref="char:EOLhyphen"/>ſcience accuſes you of any wil<g ref="char:EOLhyphen"/>ful Sin, or Sins committed the Day paſt; or brings to memory any Sin, or Sins, of a longer Date, which you never ſolemnly unſinn'd by Repen<g ref="char:EOLhyphen"/>tance, uſe this following Form.</p>
+               <div type="part">
+                  <pb n="49" facs="tcp:36522:31"/>
+                  <head>THE Firſt Evening Office OF <hi>Daily Repentance for Deliberate Sin.</hi>
+                  </head>
+                  <div n="1" type="section">
+                     <head>1.</head>
+                     <p>GReat and Terrible God! the Scepter of thy Kingdom is a Scepter of Equity; for thou art of purer Eyes than to behold Iniquity with delight: Thy Wrath is <hi>in<g ref="char:EOLhyphen"/>ſupportable,</hi> and tames the moſt Haughty of Apoſtate Spirits. Who can withſtand the Judgment, who can grapple with the extream Ju<g ref="char:EOLhyphen"/>ſtice of the Moſt High?</p>
+                  </div>
+                  <div n="2" type="section">
+                     <pb n="50" facs="tcp:36522:32"/>
+                     <head>2.</head>
+                     <p>And yet, ſottiſh and ungrateful Wretch that I am! I have depar<g ref="char:EOLhyphen"/>ted from my God, and liv'd as tho' I could eſcape his eyes; In ſpight of the Supream <hi>Mercy</hi> of the Su<g ref="char:EOLhyphen"/>pream <hi>Majeſty,</hi> manifeſted in the <hi>Death</hi> and <hi>Reſurrection</hi> of his Son, I have deliberately in many Inſtan<g ref="char:EOLhyphen"/>ces committed <hi>Impiety</hi> againſt my <hi>God</hi> and <hi>Saviour; [Iniquity</hi> againſt his <hi>Creation,</hi> and <hi>Impurity</hi> againſt my own Soul and Bo<g ref="char:EOLhyphen"/>dy] <note n="*" place="margin">Here you may confeſs particular Sins; as, I have at ſuch a time, and under ſuch and ſuch cir<g ref="char:EOLhyphen"/>cumſtances.</note>: Yea, this very day have I provok'd the Lord to <hi>Jealouſie</hi> by the addition of a new Sin (<hi>or Sins</hi>) to my former crying Of<g ref="char:EOLhyphen"/>fences; ſo like a <hi>Brute</hi> ſo like a <hi>Devil;</hi> nay worſe than either Brute or Devi<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> have I been before thee: For n<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                        <pb n="51" facs="tcp:36522:32"/> 
+                        <hi>Brute</hi> ever <hi>ſpurn'd</hi> at <hi>Conſcience,</hi> nor did ever any <hi>Devil trample</hi> upon <hi>Re<g ref="char:EOLhyphen"/>demption: Sinful Man</hi> alone is that Monſter of <hi>Ingratitude,</hi> that fights both againſt <hi>Light</hi> and a <hi>Jeſus</hi> at once.</p>
+                  </div>
+                  <div n="3" type="section">
+                     <head>3.</head>
+                     <p>
+                        <hi>Wrath</hi> and <hi>Vengeance, Shame</hi> and <hi>Confuſion;</hi> ineffable <hi>Anguiſh</hi> and <hi>Bitterneſs</hi> of Soul; <hi>Blackneſs</hi> and <hi>Darkneſs</hi> for ever; <hi>Communion</hi> with <hi>Devils</hi> and all the <hi>Damn'd;</hi> unquenchable <hi>Flames</hi> and diſregar<g ref="char:EOLhyphen"/>ded <hi>Cries;</hi> even the <hi>ever-gnawing</hi> and <hi>never conſuming Envy</hi> of a <hi>Judas</hi> and <hi>laps'd Angels,</hi> is, O Lord, I muſt acknowledge the true Portion of my <hi>corrupted Nature,</hi> and the juſt Reward of this (<hi>or theſe</hi>) and all my other <hi>ſinful Deeds:</hi> All this I muſt own, O Lord, and all the known and unknown terrible In<g ref="char:EOLhyphen"/>gredients of <hi>Hell</hi> belongs to all
+<pb n="52" facs="tcp:36522:33"/> who have forgot God, and Cru<g ref="char:EOLhyphen"/>cify'd the Son of God afreſh; and therefore alſo unto <hi>me,</hi> O God, who have thus <hi>again</hi> ſinn'd with ſo high a hand againſt thee; and after all thy <hi>long-ſuffering</hi> and <hi>condeſcen<g ref="char:EOLhyphen"/>ſion,</hi> have ſtill preſum'd, by new Sins, to make my ſelf a <hi>Deriſion</hi> to <hi>Devils,</hi> a <hi>Burden</hi> to <hi>my ſelf,</hi> a <hi>Trai<g ref="char:EOLhyphen"/>tor</hi> to <hi>Chriſt,</hi> and a noiſom <hi>Spectacle</hi> to <hi>God</hi> and <hi>Holy Angels;</hi> nay, for ought that I know, the <hi>Dregs</hi> of thy Fury ought to be drunk by ſo <hi>vile</hi> and <hi>villainous</hi> a Soul, if thou wert extream to mark what has been done amiſs.</p>
+                  </div>
+                  <div n="4" type="section">
+                     <head>4.</head>
+                     <p>But tho' to me belongeth <hi>Dam<g ref="char:EOLhyphen"/>nation;</hi> yet, to the Lord belongs Compaſſion; for the Lord is <hi>God,</hi> and not <hi>Man;</hi> and as is his <hi>Majeſty,</hi> ſuch is his <hi>Mercy:</hi> For doubtleſs were thy Ways as our Ways, or
+<pb n="53" facs="tcp:36522:33"/> thy Thoughts like our Thoughts; doubtleſs, were not the Bowels of God larger in extent than the <hi>wide</hi> and <hi>deep</hi> Sea; doubtleſs, were it it impoſſible for <hi>fallen</hi> Man to find a <hi>favourable</hi> acceſs to the Throne of Grace, and to be <hi>reconcil'd</hi> to his of<g ref="char:EOLhyphen"/>fended Maker, thou wou'dſt never have ſent thy eternal Begotten Son into this diſorderly Portion of thy World: For, wherefore, O Lord, did he ſhed his infinitely precious Blood, if <hi>Blood,</hi> and <hi>Vapour,</hi> and <hi>Smoak,</hi> if ſhowres of fierce and fla<g ref="char:EOLhyphen"/>ming <hi>Brimſtone,</hi> if eternal <hi>exile</hi> of <hi>Spirit, Soul,</hi> and <hi>Body</hi> from thee, be the <hi>irreverſible</hi> Fate of poor Man, and he be not capable of a repentance, which is more acceptable than the Repen<g ref="char:EOLhyphen"/>tance of Devil, and thoſe Souls who are departed this Life; even a Repentance unto everlaſting Life, which is never to be repented of.</p>
+                  </div>
+                  <div n="5" type="section">
+                     <pb n="54" facs="tcp:36522:34"/>
+                     <head>5.</head>
+                     <p>Wherefore, Heavenly Father, ſince I make uſe of the Name of no leſs a Perſon than the <hi>Chriſt</hi> of God and the <hi>Jeſus</hi> of Men; ſince he is as mighty to <hi>ſoften</hi> and <hi>ſave,</hi> as thou art to <hi>deſtroy<g ref="char:punc">▪</g>
+                        </hi> ſince his Merits are as charming to thy Goodneſs, as thy Rage is formidable to us; let not the Dread Majeſty of the Hea<g ref="char:EOLhyphen"/>vens and Earth, and all that are therein, take up the Weapons of his Anger againſt me, tho' a vain Man, which has not ſhew'd himſelf a Man, venture to expoſtulate with his <hi>Maker</hi> and his <hi>Judge,</hi> and to take unto himſelf Words, and ſay, Wilt thou enter into Controverſie with a Worm? Is there no diffe<g ref="char:EOLhyphen"/>rence betwixt the Strength of a <hi>Devil</hi> and a <hi>Man?</hi> Is not Chriſt a potent Saviour? Shall not thy Mercy have its Triumphs as well
+<pb n="55" facs="tcp:36522:34"/> as thy Juſtice? O Lord, <hi>hearken;</hi> O Lord, be <hi>gracious;</hi> O Lord, for<g ref="char:EOLhyphen"/>give; Lord, hide not thy face from me, but from my Sins; O Lord moſt Holy, O God moſt Mighty, moſt Merciful God and Saviour, ſuffer me not to fall into the bitter Pains of <hi>eternal</hi> Death: O <hi>Preſer<g ref="char:EOLhyphen"/>ver</hi> of Men, do thou draw nigh un<g ref="char:EOLhyphen"/>to me; for as I have ſinn'd, ſo I return and draw nigh unto God: I know now that 'tis not in vain ſtill to repent, and therefore I <hi>humble</hi> my ſelf, and <hi>ſupplicate</hi> thee for thy Pardon; I <hi>level</hi> my ſelf with the Worms of the Earth, under the Scepter of thy Grace; I <hi>confeſs</hi> and <hi>grieve,</hi> and <hi>hide</hi> my ſelf in the Rock <hi>Chriſt Jeſus,</hi> for fear of the Lord, and the Glory of his Majeſty: I come not, Lord, of mine own head, or in mine own Name, but by the Direction, and in the Name of the great High Prieſt, I beſeech thee forgive me; O ſpeak peace to my
+<pb n="56" facs="tcp:36522:35"/> Soul; ſay to the Mempeſt within me, Be ſtill. O do thou ſo won<g ref="char:EOLhyphen"/>derfully <hi>bleſs</hi> and be <hi>merciful</hi> unto me, as to ſhew me the light of thy Countenance: O that my Soul could hear thee ſaying, <hi>I am recon<g ref="char:EOLhyphen"/>cil'd; thy Prayers, and thy Tears are regarded my n<gap reason="illegible" resp="#MURP" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>e.</hi> Could I but believe in the Lord Jeſus, and re<g ref="char:EOLhyphen"/>pent effectually, there would be no room for doubt; for ſurely thoſe Words are the <hi>Motto</hi> of that <hi>Croſs</hi> on which <hi>Jeſus Chriſt</hi> gave up the Ghoſt.</p>
+                  </div>
+                  <div n="6" type="section">
+                     <head>6.</head>
+                     <p>O therefore, I beſeech thee, do thou ſpare me a while, till my Soul has thro' Chriſt recover'd that Strength, which by my Sin I have loſt: 'Tis not for the ſake of li<g ref="char:EOLhyphen"/>ving here that I deſire a continuance of Life; but that I may have an opportunity once more of enrobing
+<pb n="57" facs="tcp:36522:35"/> my ſelf with Divine Graces, that I may be a Partaker of the Inheri<g ref="char:EOLhyphen"/>tance of the Saints in Light, to look on the Lamb of God that was ſlain for <hi>returning</hi> Sinners; hear the Sighs of a <hi>broken</hi> Heart; ſup<g ref="char:EOLhyphen"/>ply me with a <hi>practical</hi> Faith; work in my Mind an <hi>effectual</hi> Change from all Unrighteouſneſs, to a <hi>ſteddy, flouriſhing, fruitful</hi> Habit of <hi>univerſal</hi> Holineſs; make me truly <hi>lowly in Heart,</hi> a zealous <hi>Imitator of</hi> Chriſt; fight my Battels againſt the Hoſts of Hell, and bring me at laſt, I entreat thee, to thy <hi>everla<g ref="char:EOLhyphen"/>ſting Kingdom.</hi>
+                     </p>
+                  </div>
+                  <div n="7" type="section">
+                     <head>7.</head>
+                     <p>With <hi>this Hope,</hi> I will labour to <hi>purifie</hi> my ſelf, and do commit my ſelf, with all my Fellow-Creatures, eſpecially my particular <hi>Friends</hi> and <hi>Enemies,</hi> to the kind Influences of thy Grace, and thy protection
+<pb n="58" facs="tcp:36522:36"/> this Night. Grant that my Sleep may be <hi>wholeſom</hi> and <hi>temperate,</hi> that I may riſe early the next Morning to <hi>renew</hi> my Thanks to thee for thy continu'd <hi>forbearance,</hi> and to offer my <hi>Vows of Gratitude</hi> in all <hi>ſincerity.</hi> Let not my being now inſpir'd with this ſoft Temper of Soul puff me up, or make me leſs aware of the <hi>deceitfulneſs</hi> of Sin: But may the <hi>Grace, Mercy,</hi> and <hi>Peace</hi> which I en<g ref="char:EOLhyphen"/>joy now from God the Father thro' Chriſt, by being husbanded with <hi>Vigilance</hi> and <hi>Humility,</hi> uſher me into the Regions of Glory. <hi>Amen, Amen;</hi> ſo be it for <hi>Chriſt</hi> his ſake:</p>
+                     <closer>In his <hi>Name</hi> and <hi>Words</hi> I con<g ref="char:EOLhyphen"/>clude my <hi>Addreſs,</hi> together with my <hi>Thanks</hi> to thee for all thy Mercies; <hi>Our Father,</hi> &amp;c.</closer>
+                  </div>
+               </div>
+            </div>
+            <div n="3" type="class">
+               <pb n="59" facs="tcp:36522:36"/>
+               <head>CLASS III. THE Wary Chriſtian's EVENING OFFICE OF <hi>Daily Repentance for Sins of Infirmity.</hi>
+               </head>
+               <div n="1" type="part">
+                  <head>1.</head>
+                  <p>MY Lord, and my God, Glory be to thy Grace that I have not to my Knowledge <hi>boldly pro<g ref="char:EOLhyphen"/>vok'd</hi> thee in any reſpect this day; for to thy Grace alone is this Ho<g ref="char:EOLhyphen"/>nour due. I know nothing of my
+<pb n="60" facs="tcp:36522:37"/> ſelf; yet am I not hereby <hi>juſtify'd:</hi> 'Tis thy Sentence muſt <hi>make</hi> or <hi>undo</hi> me for ever. O God, thou art greater than our Hearts, and knoweſt all things; if therefore my State is ſtill <hi>dangerous;</hi> if any <hi>peſtilential</hi> Habit ſtill cleaves to my Soul; if any <hi>Mortal Act,</hi> or <hi>Word,</hi> or <hi>Thought,</hi> hath eſcap'd my Memory in my Examination; enlighten me, I beſeech thee, and ſuggeſt it to my remembrance, that I may mingle my Tears with thy <hi>Mercy</hi> and Chriſt his <hi>Blood,</hi> before I dare to ſlumber: O ſuffer me not to lean on a de<g ref="char:EOLhyphen"/>luſive Peace: But if it be other<g ref="char:EOLhyphen"/>wiſe, praiſed be thy Goodneſs, as for all thy Mercies, ſo eſpecially for this Gift of Innocence: Keep me from being <hi>high-minded</hi> on this or any other account, and give me true <hi>Sobriety of Mind,</hi> that I may not through Giddineſs and
+<pb n="61" facs="tcp:36522:37"/> 
+                     <hi>future</hi> Neglects fall after all from Favour.</p>
+               </div>
+               <div n="3" type="part">
+                  <head>3.</head>
+                  <p>Glory be to thy Grace and the Merits of Chriſt, that thoſe ma<g ref="char:EOLhyphen"/>ny latent <hi>Deficiencies</hi> from thy Law, which cleave even to the <hi>ſanctified</hi> in this ſtate will not <hi>ſhut</hi> me out of thy Kingdom; may by degrees be <hi>leſſen'd</hi> more and more here, and will be wholly <hi>remov'd</hi> here<g ref="char:EOLhyphen"/>after: O cleanſe me from all my <hi>ſecret</hi> Faults; be they blotted out by the Blood of thy Son; and grant that by great Advances in <hi>Grace,</hi> an entrance may be vouch<g ref="char:EOLhyphen"/>ſaf'd me into the glorious Kingdom of God.</p>
+               </div>
+               <div n="4" type="part">
+                  <head>4.</head>
+                  <p>With this <hi>comfortable Faith,</hi> I rely this Night on thy Providence,
+<pb n="62" facs="tcp:36522:38"/> for convenient <hi>Repoſe</hi> and <hi>Defence</hi> both of <hi>Mind</hi> and <hi>Body.</hi> In the Name of Chriſt, I beſeech thee do thou accept this imperfect Sacrifice of <hi>Prayer</hi> and <hi>Praiſe;</hi> in his <hi>com<g ref="char:EOLhyphen"/>prehenſive</hi> Form, I alſo crave par<g ref="char:EOLhyphen"/>don for the Wandrings and Imper<g ref="char:EOLhyphen"/>fections thereof, and do teſtifie my Charity to thy Creation.</p>
+                  <closer>
+                     <hi>Our Father,</hi> &amp;c.</closer>
+               </div>
+            </div>
+         </div>
+         <div type="text">
+            <pb n="63" facs="tcp:36522:38"/>
+            <head>THE Midnight Office OF ABSTRACTION.</head>
+            <div n="1" type="part">
+               <head>1.</head>
+               <p>O My Soul, now thou art ſecret unto Men, but thou art not ſo unto God, nor for all that thou knoweſt, unto many good and bad Angels, who often behold thee as well as thy Creator, when thou neither ſeeſt nor thinkeſt of them: Now therefore that thy Eyes are bound by the Darkneſs of the Night, let thy Mind alſo be turn'd inwards by the profound ſilence of thy internal Powers, that the Dark<g ref="char:EOLhyphen"/>neſs
+<pb n="64" facs="tcp:36522:39"/> of external Senſe may encreaſe the Vigour of my intellectual Sight.</p>
+            </div>
+            <div n="2" type="part">
+               <head>2.</head>
+               <p>Commune now with thine own Spirit; O ſearch and ſee whether it be fit for Communion with God; which may be eaſily known, if thou know'ſt whether Light or Darkneſs be the predominant Prin<g ref="char:EOLhyphen"/>ciple therein. Call to remembrance thy Sins; call to remembrance the Mercies of God; dive deep into thy ſelf; and then ſay, if thou canſt, that there is not ſomething in the centre of thy Frame, which is not periſhable like the Efforts of thy Blood. Do not be like the captive Multitude of Senſe, who thro' neglect of Abſtraction, are a ſecret to themſelves: Turn thy Nature over and over in thy Thoughts, and eſpecially view the better part thereof, and obſerve
+<pb n="65" facs="tcp:36522:39"/> wherein thou haſt defac'd or im<g ref="char:EOLhyphen"/>prov'd it.</p>
+            </div>
+            <div n="3" type="part">
+               <head>3.</head>
+               <p>Think 'till thou art thorough<g ref="char:EOLhyphen"/>ly convinc'd; and when thou art ſo, do thou frequently conſider that thou carry'ſt Immortality in <hi>Embrio</hi> always within thee: 'Tis true the Soul rather believes than ſees, whilſt 'tis thus impriſon'd in the Womb. But when its Mortal Part is ripe for the Grave (which may be long before even the Autumn of Man's life) 'twill make its entrance upon the immor<g ref="char:EOLhyphen"/>tal Stage.</p>
+            </div>
+            <div n="4" type="part">
+               <head>4.</head>
+               <p>Think therefore of thy great Change in time, before thou art forc'd to launch into the Ocean of Eternity, leſt the unexpected and
+<pb n="66" facs="tcp:36522:40"/> unprepar'd-for ſight of the in<g ref="char:EOLhyphen"/>viſible World ſurprize thee with another-gueſs Dread than <hi>that</hi> which the Faithful do find then. Remember that the State of Man here on Earth is like the old <hi>Pro<g ref="char:EOLhyphen"/>bationary</hi> State of Fallen Angels, before they degenerated into De<g ref="char:EOLhyphen"/>vils, and like the State which all the Impenitent who are gone be<g ref="char:EOLhyphen"/>fore thee once enjoy'd, a State of Time and Opportunity, a State of Work and Preparation for that State which <hi>is</hi> unalterable. But the State of Saints and Fiends, the State of Loyal and Apoſtate Angels, the State of Angels and Men, who have been acquitted and condemn'd before the laſt Tri<g ref="char:EOLhyphen"/>bunal, is a State of exact Judgment, Reward, and Eternity.</p>
+            </div>
+            <div n="5" type="part">
+               <pb n="67" facs="tcp:36522:40"/>
+               <head>5.</head>
+               <p>Then be thy Recompence Glory or Vengeance, it will never ex<g ref="char:EOLhyphen"/>pire, there will be no eſcape from the one or loſs of the other; it will indeed have a beginning, but its end will never be found: Since therefore Eternity will find and keep thee ſuch as Time leaves thee, and Eternity is ineſtimable, how canſt thou value Time at too high a Rate? Let the Time paſt ſuffice thee to have ſerv'd Pride, Envy, and Concupiſcence: Now be thou entirely a Servant of Chriſt, and a Subject of Divine Zeal and Chari<g ref="char:EOLhyphen"/>ty, that an ample Proſpect of Hea<g ref="char:EOLhyphen"/>ven may ennoble and enlarge thee.</p>
+            </div>
+            <div n="6" type="part">
+               <head>6.</head>
+               <p>Make the Agonies of the Tor<g ref="char:EOLhyphen"/>mented in Hell, and the Joys of
+<pb n="68" facs="tcp:36522:41"/> the Bleſs'd above familiar to the Mind by Meditation, that it may ſupplant the inchanting intimacy, which ſenſe will otherwiſe find in thy Soul, as it does moſtly in the Souls of the MANY<g ref="char:punc">▪</g> Fancy thy Spirit to be taking leave of this Cottage of Fleſh; for this Cuſtom tends greatly to the purgation of the Heart, and the weaning of thy Affections from all its darling I<g ref="char:EOLhyphen"/>dols: It makes bare the Vanity of the World, ſtabs the Love of an Earthly Life to the Heart, and cheriſhes divine Love in the Soul: Awake therefore, O my Soul, ſtrive to be cloath'd with new Strength, and to regain Paradiſe: Meditate, and abſtract thy ſelf, whilſt Senſe is tame and quiet, and does not hinder the orderly Peace of the Mind; check every wanton Sally of Imagination, be-aw'd with a ſenſe of the Divine Omnipre<g ref="char:EOLhyphen"/>ſence; proſtrate thy Thoughts of
+<pb n="69" facs="tcp:36522:41"/> thy ſelf, and conſider, and ſay,</p>
+               <p>Great was the Rebellion and the Overthrow of the Apoſtate Inha<g ref="char:EOLhyphen"/>bitants of Heaven.</p>
+               <p>Great was, and is their Envy againſt us, and the Fall of all Man<g ref="char:EOLhyphen"/>kind in <hi>Adam.</hi>
+               </p>
+               <p>Great is the Mercy of our affron<g ref="char:EOLhyphen"/>ted God, and the Redemption that is tender'd by the Lord Jeſus.</p>
+               <p>Great is our Blindneſs and Ob<g ref="char:EOLhyphen"/>ſtinacy, deep and ſtrong are our ill Habits, mighty indeed are our Ghoſtly Enemies.</p>
+               <p>Mightier and more are the An<g ref="char:EOLhyphen"/>gels that are for us; wonderful is the Courteſie, powerful are the ſtrivings of the ſupreme Spirit with Man.</p>
+               <p>Sharp is the Edge of Conſcience, even ſharper than a Two edged Sword, and ſo great is the Peace of a good Man, that it alone might ſatisfie, and every one but himſelf is a ſtranger to his Joy.</p>
+               <pb n="70" facs="tcp:36522:42"/>
+               <p>Amazingly great is the change of Death; ſo terrible alſo is the Day of the Lord, and the Univerſal Judgment of Angels and Men.</p>
+               <p>Who can dwell in Everlaſting Burnings? Are we ſtronger than God? Who can conceive the Plea<g ref="char:EOLhyphen"/>ſures of Heaven? What Mortal hath ever feaſted upon God?</p>
+            </div>
+            <div n="7" type="part">
+               <head>7.</head>
+               <p>And cannot all this provoke that aſpiring Principle within me, which was made for the Enjoyment of a God, to diſcipline its Thoughts? To be choice in the Motions of my Will? To make the Body know its original diſtance from the Soul? To reſiſt the Faction of Hell? To be always on its Guard, when it converſes with its frail and trea<g ref="char:EOLhyphen"/>cherous Fellow-creatures? To be a wiſe Steward of Time? To have a mean Opinion of my ſelf and this
+<pb n="71" facs="tcp:36522:42"/> flowing State? To keep cloſe and conſtant correſpondence with Hea<g ref="char:EOLhyphen"/>ven, by frequent Prayer and Praiſe, and holy Hungrings and Thirſtings after the Beatifick Viſion? And, in a word, to uſe its utmoſt skill, and all poſſible care, to file, and burniſh, and enrobe my Soul with all thoſe beauteous Fruits of the Spirit, which are the ground-work of the Happineſs of a Man? That ſo it may be conquer'd throughout endleſs Ages by the Brightneſs and Love of God, and obtain a Place among the innumerable, the eter<g ref="char:EOLhyphen"/>nal, and inconceivably glorious Conquerors, and Kings, and Prieſts of God.</p>
+               <p>With this Hope return to thy Reſt, O my Soul: The Lord guide, the Lord ſtrengthen thee, and bring thee to the Haven where thou would'ſt be. <hi>Amen,</hi> for Chriſt his Sake.</p>
+            </div>
+         </div>
+         <div type="text">
+            <pb n="72" facs="tcp:36522:43"/>
+            <head>A Practical Directory.</head>
+            <div n="1" type="chapter">
+               <head>CHAP. I. Modeſtly defending, clearly ex<g ref="char:EOLhyphen"/>plaining, and affectionately preſſing the regular uſe of this New Method of Daily Devo<g ref="char:EOLhyphen"/>tion.</head>
+               <p>IT being very fitting that the Reaſonableneſs of a Daily Me<g ref="char:EOLhyphen"/>thod of Devotion, which profeſſes to be entirely new after ſo many Volumes of this Nature, ſhould be
+<pb n="73" facs="tcp:36522:43"/> demonſtrated: It being likewiſe as fitting that thoſe who mean well, tho' they know little, ſhould not only be furniſhed with ſuitable helps to Devotion, but alſo with a clear Explanation of pious helps by any perſon who offers them ſuch Aſſiſtance, that they may not pray only with Chearfulneſs and Affe<g ref="char:EOLhyphen"/>ction, but alſo with that clear Un<g ref="char:EOLhyphen"/>derſtanding, which is a valuable Gift of the Spirit, and recommen<g ref="char:EOLhyphen"/>dation of our Addreſſes to God, as well as the other two: And laſtly, it being very fitting that the faint hands and hearts ſhould be animated and lifted up, which the beſt diſ<g ref="char:EOLhyphen"/>pos'd perſons may ſometimes ſtand in need of, I have thought fit by the Adviee of ſome good Chriſtians, and my own Commiſeration of the Ignorance of ſome illiterate, and mine own and others Sluggiſhneſs (now I have by God's Bleſſing fi<g ref="char:EOLhyphen"/>niſhed this ſmall part of a large
+<pb n="74" facs="tcp:36522:44"/> Body of Devotions) to add a pra<g ref="char:EOLhyphen"/>ctical Directory, wherein, by God's help, I ſhall,</p>
+               <p n="1">I. Give a ſhort and clear Account concerning daily growth in Grace.</p>
+               <p n="2">II. I ſhall conſider how Cloſet-Devotion contributes to it.</p>
+               <p n="3">III. What Method of daily Clo<g ref="char:EOLhyphen"/>ſet-Devotion contributes moſt li<g ref="char:EOLhyphen"/>berally to it, therein ſhewing the Reaſonableneſs of this new Method of Devotion in general.</p>
+               <p n="4">IV. I ſhall lay open the Structure of each particular Office, and the Reaſonableneſs of it.</p>
+               <p n="5">V. I ſhall add two or three ne<g ref="char:EOLhyphen"/>ceſſary Cautions.</p>
+               <p n="6">VI. I ſhall conlude with ſome ſuitable Practical Exhortations.</p>
+            </div>
+            <div n="2" type="chapter">
+               <pb n="75" facs="tcp:36522:44"/>
+               <head>CHAP. II. Of Daily Growth in Grace.</head>
+               <p>SInce the Real Chriſtian's daily Religion of the end, is to grow in Grace, 'tis neceſſary, in the firſt place, to ſpeak ſomething concer<g ref="char:EOLhyphen"/>ning Growth in Grace: I will there<g ref="char:EOLhyphen"/>fore, firſt, ſhew what <hi>Growth in Grace</hi> is; and, ſecondly, <hi>how</hi> a Man may know whether he grows in Grace.</p>
+               <p>
+                  <hi>Grace is any Degree of Beauty and Strength of Soul which is more than natural.</hi> There are Degrees of <hi>Knowledge,</hi> and <hi>Liberty</hi> of Will, which we enjoy by Nature; and are eſſential to the bare exiſtence of a Nature which is partly ſpiritual. Theſe Degrees are the Gift of God and ſuch as our Souls cannot loſe,
+<pb n="76" facs="tcp:36522:45"/> unleſs they ceaſe to be. In ſhort, they are ſuch Degrees of Light and Liberty, which are conſiſtent with a ſpiritual Nature's being in a ſtate of <hi>
+                     <g ref="char:V">Ʋ</g>ncreatur'dneſs,</hi> tho' not of <hi>
+                     <g ref="char:V">Ʋ</g>ncreatedneſs.</hi> Now the Death of <hi>Adam</hi> and Devils, not conſiſting in a ceſſation from being, but a deprivation of ſo much Light and vigorous Rectitude of Will, as is neceſſary to make a ſpiritual Crea<g ref="char:EOLhyphen"/>ture happy; Man may be and is born with certain Portions of Light and Vigour of Will, which we call natural, and are the iſſue of God's bare willing our Exiſtence, and yet nevertheleſs be in a ſtate of Damnation. Conſequently this be<g ref="char:EOLhyphen"/>ing conſiſtent with the Enmity of God (who will'd by an eternal De<g ref="char:EOLhyphen"/>cree, whether we will or no our Exiſtence, and the Exiſtence of all ſpiritual Natures, to be eternal, but not to be eternally happy, by an unconditional Decree of the
+<pb n="77" facs="tcp:36522:45"/> ſame extent) that which is emi<g ref="char:EOLhyphen"/>nently call'd the <hi>Grace of God,</hi> is his Tender to us, by and thro' Chriſt, of that more than natural Degree of Light, and Rectitude of Will, whereby a Man is plac'd in a ſtate of Evangelical Fitneſs for the eternal Complacency of God, in the ſaid Nature improv'd.</p>
+               <p>This Complacency of God, in the ſaid Nature improv'd, ariſing from the ſaid Degrees of Knowledge and Rectitude of Will, is that real Immortality which <hi>Lucifer</hi> loſt in Heaven, and <hi>Adam</hi> forfeited in Paradiſe. Hence 'tis that both the General Capableneſs of human Na<g ref="char:EOLhyphen"/>ture's receiving this degree of Light and Liberty by Chriſt; and alſo the more wiſe and induſtrious individual Partakers of the ſaid re<g ref="char:EOLhyphen"/>deemable Nature their Acquiſition thereof, are both call'd Grace; be<g ref="char:EOLhyphen"/>cauſe, 'tis extraordinary Compaſ<g ref="char:EOLhyphen"/>ſion and Gift, a greater than the
+<pb n="78" facs="tcp:36522:46"/> Gift of a Creator only; the Gift of ſuch a degree of Light is call'd <hi>Illumination,</hi> becauſe the former de<g ref="char:EOLhyphen"/>gree of Light is Darkneſs in com<g ref="char:EOLhyphen"/>pariſon with this; and the latter degree of Scope of Will, is call'd the <hi>Liberty of the Sons of God;</hi> be<g ref="char:EOLhyphen"/>cauſe the narrow degree of its na<g ref="char:EOLhyphen"/>tural Scope is a Priſon, when com<g ref="char:EOLhyphen"/>par'd with ſupernatural Scope: For a Devil and a meer natural Man, have both of them ſome degrees of <hi>Knowledge</hi> and <hi>Scope,</hi> and conſe<g ref="char:EOLhyphen"/>quently of <hi>Light</hi> and <hi>Liberty;</hi> other<g ref="char:EOLhyphen"/>wiſe they would ceaſe to be ſuſce<g ref="char:EOLhyphen"/>ptible of a Hell, for 'tis Heaven diſcern'd in themſelves, according to their primitive Capacity, that cauſes that Anguiſh and Envy, which ariſes from their Reflection on their fooliſh and ungrateful a<g ref="char:EOLhyphen"/>buſe of Opportunity. So then a ſtate of Grace, as 'tis us'd in the New Teſtament, is a ſtate of ſuper<g ref="char:EOLhyphen"/>natural Light in the Soul of Man,
+<pb n="79" facs="tcp:36522:46"/> together with at leaſt as much Re<g ref="char:EOLhyphen"/>ctitude of Will, as is neceſſary to recover the Favour of God. Now growth in this Grace is as eſſential to the flouriſhing Condition of the Divine ſupernatural Life of a Chri<g ref="char:EOLhyphen"/>ſtian Soul, (during its continuance here (it being an Human Soul's ſtate of Adoleſcence, as growth in heighth and bulk of Body is eſſen<g ref="char:EOLhyphen"/>tial to the thriving Condition of the Animal Life till the Body has commenc'd Manhood. And this growth in Grace, is the Soul's en<g ref="char:EOLhyphen"/>creaſing in <hi>Faith, Magnanimity, Heavenly-mindedneſs, Humility, Pu<g ref="char:EOLhyphen"/>rity, Charity,</hi> and all ſuch-like Di<g ref="char:EOLhyphen"/>vine Principles, and internal Ha<g ref="char:EOLhyphen"/>bits, that are proper to regenerate Souls, and are exerted in the ex<g ref="char:EOLhyphen"/>ternal Exerciſes of forgiving Inju<g ref="char:EOLhyphen"/>ries, prudent Proviſion for our Bo<g ref="char:EOLhyphen"/>dies and Dependents, oral Prayer and Praiſe, and the like external Subjects of the Goſpel-Precepts.</p>
+               <pb n="80" facs="tcp:36522:47"/>
+               <p>From this account of <hi>Growth in Grace,</hi> we may eaſily know, ſecond<g ref="char:EOLhyphen"/>ly, when we grow in <hi>Grace:</hi> For ſince <hi>Grace</hi> is a ſtate of univerſal Rectitude of Soul, and is divided into ſeveral Parts of Purity, Cha<g ref="char:EOLhyphen"/>rity, and the like, according to the different Relations wherein we ſtand plac'd, with reſpect ro the Creator and his Creation, and which do ſeverally diſplay themſelves in our Lives, at thoſe Seaſons which Divine Providence allows for each; 'Tis not a Chriſtian's buſineſs to be ſolicitous, as to his particular ex<g ref="char:EOLhyphen"/>ternal Exerciſes (provided they be lawful and laudable in the Judg<g ref="char:EOLhyphen"/>ment of the Goſpel, and thoſe be preferr'd, if two or more ſuch ſtand in competition, which Providence and the Goſpel prefer) but his ſo<g ref="char:EOLhyphen"/>licitude muſt be vigorouſly to ex<g ref="char:EOLhyphen"/>erciſe and improve within him<g ref="char:EOLhyphen"/>ſelf, during every exerciſe of Ver<g ref="char:EOLhyphen"/>tue, the particular part of univerſal
+<pb n="81" facs="tcp:36522:47"/> Grace (which is the Blood and Life of a renew'd Soul) that is pe<g ref="char:EOLhyphen"/>culiar <hi>to,</hi> and moſtly ornamental <hi>of</hi> every preſent external Exer<g ref="char:EOLhyphen"/>ciſe.</p>
+               <p>Hence it is, that a poor, honeſt Mechanick Chriſtian may thrive as much in <hi>Grace</hi> in his Shop, as a Prieſt by the daily uſe of the Altar, provi<g ref="char:EOLhyphen"/>ded he prefers his honeſt Work be<g ref="char:EOLhyphen"/>fore the Sacrament; becauſe Provi<g ref="char:EOLhyphen"/>dence has ſo preferr'd it in him. Tho receiving the Sacrament, as to the external Solemnity of it, and the intrinſick Worth of the Exerciſe it ſelf, is more preferrible to him and all pious Souls in it ſelf, when it does not ſtand in competition with that degree of ſecular Induſtry, which Juſtice and moderate Care for a Family requires.</p>
+               <p>Hence alſo it comes to paſs, that as the thriving Mechanick Chri<g ref="char:EOLhyphen"/>ſtian is better every Sunday, or Sacrament-Day, than he was the
+<pb n="82" facs="tcp:36522:48"/> Day before; becauſe that intent<g ref="char:EOLhyphen"/>neſs of Spirit (which is the pecu<g ref="char:EOLhyphen"/>liar, ornamental, internal Exerciſe of the conjoin'd Worſhip both of Soul and Body, eſpecially when offer'd with the Memorials of the Mediator's Paſſion) exceeds the degree of his contented ſubmiſſi<g ref="char:EOLhyphen"/>on and heavenly-mindedneſs (which is the greateſt internal Ornament of a Chriſtian <hi>then</hi>) during his <hi>laſt</hi> external Exerciſe of his ſecu<g ref="char:EOLhyphen"/>lar Calling: So alſo the next Day after the ſaid Sunday, or laſt Sacrament-Day, if he thrives, he is better than he was then, becauſe his Heavenly-mindedneſs, during the Exerciſe of his ſecular Cal<g ref="char:EOLhyphen"/>ling, exceeds the intent Fervour of his Spirit, during his laſt Ex<g ref="char:EOLhyphen"/>erciſe of the moſt ſolemn Wor<g ref="char:EOLhyphen"/>ſhip on the laſt Lord's Day, if Allowances in the Examination be made for the different Natures of
+<pb n="83" facs="tcp:36522:48"/> both the external Exerciſes. For though one external Exerciſe has more Religious Splendour in it ſelf than another, yet the Reli<g ref="char:EOLhyphen"/>gious internal Splendour of the Spirit of a Chriſtian, may be diffuſing it ſelf with a daily en<g ref="char:EOLhyphen"/>creaſe, both of extent and power, under both alike, in caſe they are all us'd in their Seaſons; and thoſe that are the more immediately Charitable and Religious, are heartily preferr'd all Opportuni<g ref="char:EOLhyphen"/>ties.</p>
+               <p>Wherefore a Chriſtian that would daily know, whether or no he grows in Grace either, firſt, con<g ref="char:EOLhyphen"/>ſiders daily the Chain of his lawful external Exerciſes the day paſt; and then conſiders what particular Concomitant Divine Tempers of Mind are the peculiar ornamental Tempers of a Chriſtian during each Exerciſe; and after that, takes the
+<pb n="84" facs="tcp:36522:49"/> height of its advance in each Divine Temper during each Exerciſe; and ſo by deep abſtraction of Thought, ſees whether the progreſs of the Soul, in the different Divine Tem<g ref="char:EOLhyphen"/>per, which is ornamental of each ſubſequent Exerciſe, exceeded its progreſs in the particular internal Divine Temper of each foregoing different Exerciſe. In which pro<g ref="char:EOLhyphen"/>cedure of practical Abſtraction, it always alſo compares the propor<g ref="char:EOLhyphen"/>tionable or diſproportionable Ad<g ref="char:EOLhyphen"/>vantages and Diſadvantages of <hi>Di<g ref="char:EOLhyphen"/>vine Aſſiſtance, Temptations, Place, Time, State of Body,</hi> and the diffe<g ref="char:EOLhyphen"/>rent Natures of the external Exer<g ref="char:EOLhyphen"/>ciſes, and the like. Or, ſecondly, the Soul takes an account of its Carriage at different times, during ſimilar Exerciſes, and compares the different Improvements of the ſimilar Tempers of each ſimilar or like Exerciſes at different times,
+<pb n="85" facs="tcp:36522:49"/> with the Circumſtances of Aſſi<g ref="char:EOLhyphen"/>ſtance and Temptation, and the like, during each time of Exer<g ref="char:EOLhyphen"/>ciſe.</p>
+               <p>This, in ſhort, ſeems to me to be what St. <hi>Peter</hi> exhorts us to, when he exhorts the Chriſtians to <hi>grow in Grace,</hi> and to <hi>give all dili<g ref="char:EOLhyphen"/>gence to add to our Faith Vertue,</hi> &amp;c. <hi>for if theſe things be in you, and a<g ref="char:EOLhyphen"/>bound, they make you that ye ſhall nei<g ref="char:EOLhyphen"/>ther be barnen, nor unfruitful in the Knowledge of our Lord Jeſus Chriſt. But he that lacketh theſe things, is blind.</hi> From which <hi>latter</hi> Words, 'tis evident the Apoſtle does not ſuppoſe any Man in a State of Grace, who has not all theſe Ver<g ref="char:EOLhyphen"/>tues always ready within him, to be elicited and vigorouſly ex<g ref="char:EOLhyphen"/>erted at different Times. A Man muſt have the Seeds of Grace with<g ref="char:EOLhyphen"/>in him, to be in an infant-ſtate of
+<pb n="86" facs="tcp:36522:50"/> Grace, and muſt be growing in all, if he is a real, thriving, adult Chri<g ref="char:EOLhyphen"/>ſtian. But the Contents of this Chapter may he clearly diſcuſs'd, if God grant me Life, in a particu<g ref="char:EOLhyphen"/>lar Diſcourſe concerning <hi>Birth.</hi> May this ſuffice for the preſent pur<g ref="char:EOLhyphen"/>poſe.</p>
+            </div>
+            <div n="3" type="chapter">
+               <pb n="87" facs="tcp:36522:50"/>
+               <head>CHAP. III. Of Cloſet-Devotion's further<g ref="char:EOLhyphen"/>ance of daily Growth in Grace; and the Reaſonableneſs of the Method of this New daily Method of Devotion in ge<g ref="char:EOLhyphen"/>neral.</head>
+               <p>WHatever external Exerciſes of Religion may be only Providentially, or tho' conſtantly, yet but at ſome ſet Times neceſſa<g ref="char:EOLhyphen"/>ry, I preſume 'tis agreed by all, That the Exerciſes of the United Devotion of our Hearts and Tongues, with reverent Poſtures of Body in our Cloſets, if Health and opportunity of Retirement will allow it, is conſtantly the daily Du<g ref="char:EOLhyphen"/>ty of a Chriſtian, be he in the ſtate of Infancy or Perfection. He that wholly omits the Duty of Prayer
+<pb n="88" facs="tcp:36522:51"/> and Piety, lives without God. He that omits it in ſecret, is a Phari<g ref="char:EOLhyphen"/>ſee (perhaps worſe) in a Congrega<g ref="char:EOLhyphen"/>tion. He that performs, but al<g ref="char:EOLhyphen"/>ways performs it only in his Mind, is to be commended ſo far for doing that, which in a lower or higher Degree, is the perpetual Duty and Employ of a wakeful Chriſtian, whoſe continual ſenſe of God's Preſence and Goodneſs, join'd with God's Grace and Spirit, is the very Sôul of a ſupernatural Life. But nevertheleſs; he cannot be com<g ref="char:EOLhyphen"/>mended for forgetting that he is a compounded Creature; and I can<g ref="char:EOLhyphen"/>not but think it my Duty Friendly to inform him, That as humble Geſtures of Body, without a ſprightly Awe of God in the Mind, are the Skeleton of (not real) Wor<g ref="char:EOLhyphen"/>ſhip; ſince 'tis not only imperfect, but lifeleſs: So the bare elation of the Soul to God, if it be never ac<g ref="char:EOLhyphen"/>company'd, with Reverence of Bo<g ref="char:EOLhyphen"/>dy
+<pb n="89" facs="tcp:36522:51"/> is not the compleat Worſhip of a Man. Why ſhould we part the Body and Spirit which God has join'd together; Doſt thou not be<g ref="char:EOLhyphen"/>lieve the Reſurrection of the Bo<g ref="char:EOLhyphen"/>dy? If God deſigns to glorifie thy Body to all eternity, (<hi>i. e</hi>) in caſe thou hallow it by the Purity of thy Soul, why ſhouldſt thou deny it the Honour of joining ſometimes with thy Soul, to do all the Honour it can to thy God? Or doſt thou think that thy ſolitary mental Ho<g ref="char:EOLhyphen"/>mage, is equal to the Homage of a ſimple Spirit, who dareſt to refuſe ſolemnly ſometimes, according to St. <hi>Paul</hi>'s Exhortation, to preſent and bow thy Body before God, whilſt thou canſt preſent it a living Sacrifice on Earth?</p>
+               <p>By this united Devotion of Spi<g ref="char:EOLhyphen"/>rit, Soul, and Body, in our Clo<g ref="char:EOLhyphen"/>ſets, we make our Senſes do Obei<g ref="char:EOLhyphen"/>ſance to Faith, and give an irreſi<g ref="char:EOLhyphen"/>ſtible Evidence of our ſenſe of
+<pb n="90" facs="tcp:36522:52"/> God's Omnipreſence to our own Conſciences: By this we keep our Souls intent on the other World; and we ſee how far the things of the World do, and how far they do not, make deep Impreſſion on our Affections. But becauſe the happy Tryal of the conſtant Ob<g ref="char:EOLhyphen"/>ſervance of this Religious Practice, recommends it more than the Tongue even of an Angel can; I reſign thoſe who neglect it, to the Diſcipline of that Mighty Spirit of God, whoſe methods of bringing Souls to God, ſurpaſs our compre<g ref="char:EOLhyphen"/>henſion; and will proceed to ſhew what method makes this Religious Exerciſe contribute moſt to a Soul's growth in Grace.</p>
+               <p>And ſince I have given a Speci<g ref="char:EOLhyphen"/>men of the moſt advantagious dai<g ref="char:EOLhyphen"/>ly Method of Ordinary Devotion that I know of, this may be done as well as I can do it, by a clear and brief Repreſentation of the Rea<g ref="char:EOLhyphen"/>ſonableneſs
+<pb n="91" facs="tcp:36522:52"/> of this Method in ge<g ref="char:EOLhyphen"/>neral.</p>
+               <p>As for the Seaſons of the Day, the Three firſt of them were the ſet Seaſons of thoſe two great Maſters of Addreſs to God, <hi>DAVID</hi> and <hi>DANIEL;</hi> and the Fourth Seaſon ſometimes is mention'd by the former of them, and was fa<g ref="char:EOLhyphen"/>mous in the Infancy of the Chri<g ref="char:EOLhyphen"/>ſtian Religion.</p>
+               <p>The different Natures of the ſe<g ref="char:EOLhyphen"/>veral Parts of Addreſſes to God, and thoſe particular holy Tempers of Soul that are peculiarly ornamen<g ref="char:EOLhyphen"/>tal of each Part, and the Propriety of each Part, to the Seaſon herein allotted for it, together with the Reaſons of the different Structures of each Office, ſhall, God willing, be laid open in the next Chap<g ref="char:EOLhyphen"/>ter.</p>
+               <p>Wherefore the only thing which remains to be accounted for, in the defence of the General Structure of
+<pb n="92" facs="tcp:36522:53"/> the whole Daily Office, is our al<g ref="char:EOLhyphen"/>lotment of a diſtinct Seaſon, fo<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> each principal different Part of Ad<g ref="char:EOLhyphen"/>dreſs to God.</p>
+               <p>It is agreed by all devout Per<g ref="char:EOLhyphen"/>ſons, be the Nature of our Addreſs to God what it will, That Humi<g ref="char:EOLhyphen"/>lity, an awful Senſe of God, and Faith, are neceſſary Recommenda<g ref="char:EOLhyphen"/>tions of it; becauſe theſe are ge<g ref="char:EOLhyphen"/>neral Eſſential Ingredients of all ac<g ref="char:EOLhyphen"/>ceptable Addreſs to God, and therefore peculiar to none: accor<g ref="char:EOLhyphen"/>dingly I took particular care to contrive<g ref="char:punc">▪</g> that a Vein of theſe run thro' every one of the Offices.</p>
+               <p>'Tis, I preſume, alſo agreed, that Petitionary, Penitential, Eucha<g ref="char:EOLhyphen"/>riſtical, and Interceſſive Addreſſes to God, have each of them, be<g ref="char:EOLhyphen"/>ſides thoſe already-mention'd Qua<g ref="char:EOLhyphen"/>lifications that are common to them all, their certain, peculiar, ornamental, holy <hi>Tempers</hi> of Spi<g ref="char:EOLhyphen"/>rit, which differ very much, with
+<pb n="93" facs="tcp:36522:53"/> reſpect to the natural <hi>Modifications of Senſe</hi> which attend them; tho' as they are ſanctify'd, they all con<g ref="char:EOLhyphen"/>ſpire to the ſame end; as, Grief for our Sins, a ſenſe of our Wants, and a joyful ſweet ſenſe of God's Mercies, and the like.</p>
+               <p>Conſequently theſe different po<g ref="char:EOLhyphen"/>ſtures or Spirit, with reſpect to the different Modifications of Soul, wherewith they are neceſſarily at<g ref="char:EOLhyphen"/>tended in this ſtate (tho' they are very reconcilable at different times, or at the ſame time in very low degrees, ſince as they are ſancti<g ref="char:EOLhyphen"/>fy'd, they carry on the ſame end, and are but the ſame univerſal ho<g ref="char:EOLhyphen"/>ly Frame of Spirit, differently mo<g ref="char:EOLhyphen"/>difying the Soul at different Sea<g ref="char:EOLhyphen"/>ſons upon different Occaſions) cannot be all together at the ſame time, each in their <hi>Zenith,</hi> or im<g ref="char:EOLhyphen"/>mediately in ſucceſſion ſo. The conſequence of which is, that thoſe different parts of pious Addreſſes
+<pb n="94" facs="tcp:36522:54"/> to God, which require the ſaid different holy Tempers of Mind cannot be all ſo ſolemnly perform'<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> together, as at different Seaſons o<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> the Day; tho' every part may b<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> implicitely in each, and yet each Office require the vigorous exer<g ref="char:EOLhyphen"/>tion of but one holy Modification of Soul.</p>
+               <p>Wherefore, whereas the uſual Method of uſing every ſort of De<g ref="char:EOLhyphen"/>votion thrice a day, diſtinctly and explicitely, either makes the ſo<g ref="char:EOLhyphen"/>lemn uſe of each part of Addreſs wholly impracticable, which be<g ref="char:EOLhyphen"/>trays into Lukewarmneſs; or elſe makes it impracticable, without a great deal of time and trouble to change ſo many different Poſtures of Soul immediately, one after ano<g ref="char:EOLhyphen"/>ther; which inconvenience induce Tediouſneſs, and often betrays in to frequent omiſſion of Cloſet Devotion to God: On the contra<g ref="char:EOLhyphen"/>ry, the Method of Diſtinction i<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <pb n="95" facs="tcp:36522:54"/> this Book, makes Devotion be more pleaſantly and intently per<g ref="char:EOLhyphen"/>form'd in all its parts, and with leſs expence of Time, and hin<g ref="char:EOLhyphen"/>derance of our ſocial Duties: For the Soul by this means, <hi>agit quod agit,</hi> does what it does to the purpoſe; becauſe it has but one po<g ref="char:EOLhyphen"/>ſture of Soul at a time to provide; and yet by the uſe of the Lord's Prayer (which of it ſelf is a com<g ref="char:EOLhyphen"/>pleat Office of mix'd Devotion) it uſes all together every Seaſon, with due Reverence, though not with the utmoſt heighth of every Paſ<g ref="char:EOLhyphen"/>ſion. Thus in all the inſpir'd Pſalms, be they Penitential or Eu<g ref="char:EOLhyphen"/>chariſtical, or of any other kind, 'tis eaſie to obſerve, that though here and there a ſprinkling of ſome other part of Devotion, be incidently inſerted, yet the ſo<g ref="char:EOLhyphen"/>lemn uſe of it, require but one reigning Cardinal Poſture of Soul.</p>
+            </div>
+            <div n="4" type="chapter">
+               <pb n="96" facs="tcp:36522:55"/>
+               <head>CHAP. IV. A View of the particular Stru<g ref="char:EOLhyphen"/>cture of every <hi>Office.</hi>
+               </head>
+               <p>OUr Sprightlineſs after the Re<g ref="char:EOLhyphen"/>freſhment of ſound and tem<g ref="char:EOLhyphen"/>perate Sleep, being a lively Image of the future Reſurrection of our Bodies, and naturally diſpoſing our Minds to be brisk and chearful, I could not but think the Morning the propereſt time for the plea<g ref="char:EOLhyphen"/>ſant Exerciſe of Religious Grati<g ref="char:EOLhyphen"/>tude.</p>
+               <p>This Office is divided into Five Claſſes.</p>
+               <p>The Firſt is preparatory to the due Exerciſe of Gratitude. The two Firſt Sections may be us'd be<g ref="char:EOLhyphen"/>fore any Addreſs to God, it being only an Acknowledgment of the
+<pb n="97" facs="tcp:36522:55"/> Apoſtacy of our Nature, and our <hi>un<g ref="char:EOLhyphen"/>worthineſs</hi> to approach to <hi>God,</hi> in or<g ref="char:EOLhyphen"/>der to engage us to Reverence and Humility in our Addreſſes, and alſo a Remembrance of our Saviour's purchaſing the Favour of Acceſs, and a Capableneſs of Regeneration, in order to maintain within us a modeſt Faith and Confidence. But the Third Section muſt be appro<g ref="char:EOLhyphen"/>priated to this Office, it being an expreſs Reſolution to praiſe God, from the Conſideration of our Li<g ref="char:EOLhyphen"/>berty under the Goſpel, and Obli<g ref="char:EOLhyphen"/>gation thereto, and eſpecially upon the account of Chriſt's ſhedding his Blood for us; which being here mention'd by the way of Eminence, it is not mention'd in the next Claſs.</p>
+               <p>This Second Claſs begins with <hi>Glory therefore,</hi> putting in execu<g ref="char:EOLhyphen"/>tion what was reſolv'd upon before. By <hi>Recital</hi> is meant, ſpeaking of
+<pb n="98" facs="tcp:36522:56"/> God in the Third Perſon <hi>HE;</hi> and by <hi>addreſs</hi> in the <hi>Second</hi> as <hi>THO<g ref="char:V">Ʋ</g>.</hi> The former is almoſt as frequent in the Pſalter, as the latter. The Second Section Commemorates God's Infinite and Incomprehenſi<g ref="char:EOLhyphen"/>bleneſs in general; the Third, His Attributes and ſplendid Atten<g ref="char:EOLhyphen"/>dance; the Fourth, the Beauty and Order of the Inanimate Worlds; the Fifth and Sixth the Works of Creation and Providence, and par<g ref="char:EOLhyphen"/>ticularly the Preſervation of Hu<g ref="char:EOLhyphen"/>man Nature by Birth, which is a very Inſtructive Subject to the Thoughtful, and excites wonder<g ref="char:EOLhyphen"/>ful Thoughts of God, for our laſt Night's particular Preſerva<g ref="char:EOLhyphen"/>tion. At laſt, the Soul perceiving God's Mercies too many to be numbred, concludes in an holy Amaze.</p>
+               <p>Therefore the Soul, after oral Gratitude, proſtrates the Body to the Ground, and uſes the De<g ref="char:EOLhyphen"/>dicatory
+<pb n="99" facs="tcp:36522:56"/> of the Third Claſs, and dedicates it ſelf without the leaſt reſerve to God's Spirit, whoſe Temples St. <hi>Paul</hi> hath told us good Chriſtians are. This Cuſtom ob<g ref="char:EOLhyphen"/>liges us daily to remember our Baptiſmal Vow; and 'till we have renounc'd this, I do not ſee why this may not be an ordinary pra<g ref="char:EOLhyphen"/>ctiſe: For our Baptiſmal Vow is not made the leſs Obligatory by our neglect of the laudable pra<g ref="char:EOLhyphen"/>ctiſe of the daily recognition of it. Therefore I deſire the Reader to ſay daily, <hi>This Day I again dedicate,</hi> &amp;c. This being done, it imme<g ref="char:EOLhyphen"/>diately reſigns it ſelf to Providence, which is another eſſential part of Gratitude to God. And now it ſays, <hi>I am thine, O ſave me,</hi> 'tis but fitting that the Soul being wholly God's, it ſhould quite abandon the World, the Fleſh, and the Devil; as it does in the Second Section of this Claſs, and long for the Victory
+<pb n="100" facs="tcp:36522:57"/> over its predominant Conſtitution-Corruptions, which is the main Victory of a Chriſtian. And be<g ref="char:EOLhyphen"/>cauſe he is ſuppos'd the Night be<g ref="char:EOLhyphen"/>fore to have made his Peace with God, a prudent Glance upon this need not hinder, but rather en<g ref="char:EOLhyphen"/>hance its Gratitude, by the conſi<g ref="char:EOLhyphen"/>deration of his Compaſſion and Long-ſuffering with ſuch noiſom Creatures. The third and laſt Se<g ref="char:EOLhyphen"/>ction is a modeſt Dependance up<g ref="char:EOLhyphen"/>on God for his Grace: And indeed if we can rely on God for our Bo<g ref="char:EOLhyphen"/>dies, much more ſhould we for our Souls.</p>
+               <p>In the Fourth Claſs, the Soul having diſcharg'd its part of Gra<g ref="char:EOLhyphen"/>titude to God, aſſumes the Bold<g ref="char:EOLhyphen"/>neſs of Petition for ſpiritual Fa<g ref="char:EOLhyphen"/>vours, and vents its holy trem<g ref="char:EOLhyphen"/>bling and ſolicitude to perform its Vows. The Fifth Claſs minds us that the Lord's Prayer is a ſufficient joining of the Will with the Choir
+<pb n="101" facs="tcp:36522:57"/> of Heaven, in their Praiſes of the Divine Majeſty, and an expreſſion of our ſympathy with all who are yet left in a ſtate of Trial; and therefore 'tis call'd a Catholick, (<hi>i. e.</hi>) an univerſal Concluſion; we do thereby extend our Benevolence to all Creatures that are actually happy, or ſtill capable of Hap<g ref="char:EOLhyphen"/>pineſs, and make them Partners of our Petitionary Addreſſes.</p>
+               <div n="2" type="part">
+                  <head>II. <hi>Of the</hi> Noon-Office.</head>
+                  <p>IN the midſt of the Day, the Soul is ſurrounded with Temptati<g ref="char:EOLhyphen"/>ons, and moſt in danger of being plung'd in the mean Solicitudes and Thoughts of this Life; and there<g ref="char:EOLhyphen"/>fore I cannot but think that at this time Exerciſes of Vigilance are a
+<pb n="102" facs="tcp:36522:58"/> very neceſſary Antidote againſt the Infections of Darkneſs. This firſt Part may be us'd before Dinner: And leſt the pleaſing of Senſe ſhould abate our Expectation of the noble Enjoyment of Heaven, we have allotted a Gratulatory Of<g ref="char:EOLhyphen"/>fice to raiſe our Affections upwards; and becauſe the uſe of Food does naturally ſuggeſt to ſerious and wiſe Men, the cloſe ſocial Depen<g ref="char:EOLhyphen"/>dence of all God's Works one upon the other; which Conſideration is a great Friend to Charity: We have alſo allotted for after-Dinner, an Office of Interceſſion for the Church Militant.</p>
+                  <p>In the Office of Vigilance, the Soul firſt complains of the unſatiſ<g ref="char:EOLhyphen"/>factorineſs of all earthly Things; and in the ſecond Section, ſtrives to enlarge it ſelf, and reach after God Himſelf, who is a real, and really Noble Enjoyment, and more than commenſurate to the Capa<g ref="char:EOLhyphen"/>city
+<pb n="103" facs="tcp:36522:58"/> of a ſpiritual Nature; after this in the other Claſs (<hi>Sect.</hi> 1.) to bring it ſelf to a firm habit of Seriouſneſs, through the conſidera<g ref="char:EOLhyphen"/>tion of the difficulty of being ſav'd, and the greatneſs of natural Weak<g ref="char:EOLhyphen"/>neſs, and the vaſtneſs of the Strength, and Number of its Enemies, it ear<g ref="char:EOLhyphen"/>neſtly prays for the Power of be<g ref="char:EOLhyphen"/>ing acceptably obedient unto death. And becauſe our Saviour has aſſur'd us, that if we ſeek the Kingdom of God, and the Righteouſneſs there<g ref="char:EOLhyphen"/>of, all things ſhall be added to us and that God beſt knows whether Plenty or Poverty, Honour or Diſ<g ref="char:EOLhyphen"/>honour in this World be beſt; one for this, another for that Perſon; and one at one time, and another at another time, for the ſame Chri<g ref="char:EOLhyphen"/>ſtian; and therefore that we ſhould equally be prepar'd for both, the Soul does not trouble it ſelf to make particular Prayers in the Dark for temporal Uncertainties;
+<pb n="104" facs="tcp:36522:59"/> but goes the next Claſs to acquaint God particularly with what it un<g ref="char:EOLhyphen"/>feignedly deſires, by turning the great Sermon on the Mount into a Prayer, becauſe it knows that Po<g ref="char:EOLhyphen"/>verty of Spirit, and Purity of Heart, and the other Diſpoſitions therein inculcated, are abſolutely neceſſary for a Man that would be eternally happy. Different Cir<g ref="char:EOLhyphen"/>cumſtances of Life here may be of a very different Nature to different Perſons; but theſe are certain and neceſſary for every wiſe Petitioner; he that gets theſe, and he only, is a true Favourite of Heaven.</p>
+                  <p>Tho' 'tis unlawful to Worſhip Angels, yet 'tis a great part of Charity (which teaches to <hi>Rejoice with them that Rejoice;</hi>) to gratulate them and their happy ſtate; and helps very much towards the ſubli<g ref="char:EOLhyphen"/>mating the Affections.</p>
+                  <p>In the Interceſſive Part of Chari<g ref="char:EOLhyphen"/>ty, I have offer'd a very long
+<pb n="105" facs="tcp:36522:59"/> Prayer for the Clergy; being very well ſatisfy'd, that if the Laity were mov'd, by our great Defects, to pray as affectionately and con<g ref="char:EOLhyphen"/>ſtantly for us, as they ſlight and rail againſt us (not conſidering that our Office is ſtill as Venerable as ever) God would reſtore Chriſtian Diſcipline ſome way or other, and raiſe up many Faithful Paſtors a<g ref="char:EOLhyphen"/>mongſt us, tho' it were at the ex<g ref="char:EOLhyphen"/>pence of a ſecond miraculous effu<g ref="char:EOLhyphen"/>ſion of his Spirit. Good Lord, en<g ref="char:EOLhyphen"/>creaſe our Faith in the uſe of this Prayer.</p>
+               </div>
+               <div type="part">
+                  <head>Of the Structure of the <hi>Evening Office.</hi>
+                  </head>
+                  <p>The End of the Day being or<g ref="char:EOLhyphen"/>dinarily the time of the greateſt leiſure, the good Chriſtian takes an opportunity to converſe with himſelf, and to ſee whether he has kept himſelf unſpotted from the
+<pb n="106" facs="tcp:36522:60"/> World, in the purſuit of his Buſi<g ref="char:EOLhyphen"/>neſs. Perhaps it may be thought improper to uſe Prayer of ſuch a length daily before this Exerciſe; but if we conſider, that the Falſ<g ref="char:EOLhyphen"/>hood or Soundneſs of Internal Peace, depends upon the right ma<g ref="char:EOLhyphen"/>nagement of this Exerciſe, and what a Myſtery of Treachery our Hearts are, a Man can never too ſolemnly ſet about it, or think him<g ref="char:EOLhyphen"/>ſelf above the need of a peculiar Aſſiſtance from God in it, 'Tis an eaſie thing to know, whether we are externally innocent; but not ſo eaſie to know, according to the true Rules of daily Growth in Grace already laid down, whether or no we are in a growing or im<g ref="char:EOLhyphen"/>proving ſtate of Grace, which is an internal Habit. The obſervance of the ſaid Two Rules, after we have compar'd our Carriage, and examin'd from Hour to Hour, with the Sermon on the Mount, is the
+<pb n="107" facs="tcp:36522:60"/> uſefulleſt way of examining our ſelves that I can preſcribe. This Method will be tedious to thoſe who are not us'd to abſtract them<g ref="char:EOLhyphen"/>ſelves; but by uſe it will grow as familiar and compendious, as 'tis certain and ſafe.</p>
+                  <p>The abuſe of the ſame General or Particular Confeſſion of Sins, howſoever the Day has been ſpent, is very obvious to Men of but very little Judgment, it making Confeſ<g ref="char:EOLhyphen"/>ſion it ſelf to be ſlightly us'd; nay, ſometimes ſinful, when Men are taught to live always in a tepid ſtate, by making the ſame Confeſ<g ref="char:EOLhyphen"/>ſion to our Lives end (which can be only proper in caſe of a Man's ſin<g ref="char:EOLhyphen"/>ning and repenting in a circle, but never repenting ſo, as not to repent of his deceitful Repentance) and perhaps ſometimes to charge our ſelves with the Faults we never committed; as if thoſe Faults which the beſt Men ſtand actually guilty
+<pb n="108" facs="tcp:36522:61"/> of, were not ſufficient, with the help of Thought, to make them humble enough. Therefore I ſuppoſe the reaſon of this Diviſion of the Even<g ref="char:EOLhyphen"/>ing Offices will be obvious to the meaneſt Capacities at firſt ſight. For a right Judgment to be made between Mortal Sins, and Sins of Infirmity, I refer the Reader to the Reverend Doctor <hi>Lucas</hi>'s incom<g ref="char:EOLhyphen"/>parable Treatiſe concerning Reli<g ref="char:EOLhyphen"/>gious Perfection. The Office of Abſtraction, ſo call'd from its ab<g ref="char:EOLhyphen"/>ſtracting or taking the Mind off from Objects of external Senſation, explains and exhorts for it ſelf; and therefore I will be frugal of my room, and deſiſt from making Re<g ref="char:EOLhyphen"/>marks.</p>
+               </div>
+            </div>
+            <div n="4" type="chapter">
+               <pb n="109" facs="tcp:36522:61"/>
+               <head>CHAP. IV. Neceſſary Cautions.</head>
+               <p>BUt notwithſtanding all that I have ſaid concerning the Com<g ref="char:EOLhyphen"/>poſure of theſe New Offices, the <hi>Ignorance</hi> of ſome, and the <hi>Cenſori<g ref="char:EOLhyphen"/>ouſneſs</hi> of others, will ſtill oblige me to declare that the Deſign of this Tract is not to give a New Account, either of the <hi>Nature</hi> of Devotion in <hi>general,</hi> or to propoſe any <hi>new ſorts</hi> of Devotion, but to offer a more <hi>Convenient Method</hi> of <hi>Ordinary Cloſet-Piety of the Means:</hi> A Contrivance of this Nature is not the Reſult of deep Learning, or an acute Philoſophical Genius, but of the honeſt Principles of Sim<g ref="char:EOLhyphen"/>plicity of Heart and Chriſtian Pru<g ref="char:EOLhyphen"/>dence, which conſiſts in a regular Appointment of the modal Proceſs
+<pb n="110" facs="tcp:36522:62"/> and Seaſons of external Duties. Since therefore 'tis a Diſcovery that cannot make the Author more valuable in the World, I do not ſee how any charitable Chriſtian can impute the Author's Publication of this Treatiſe to a Principle of Deſire of Fame, or Self-conceit, or any other ſecular Emulation, whatever Weakneſs he may be con<g ref="char:EOLhyphen"/>ſcious of to himſelf.</p>
+               <p>Neither am I ſo bigotted to my own Method, as to detract from the Labours of others. I own my <hi>Soul</hi> and my <hi>Book</hi> to be a <hi>Debtor</hi> to many Books of Common Methods in a great meaſure. This Method is not aſſerted here to be Matter of Duty when known: If the Reaſons already given for the <hi>Conveniency</hi> of it, cannot prevail with the Rea<g ref="char:EOLhyphen"/>der to make a Trial, (which a wa<g ref="char:EOLhyphen"/>ry Chriſtian in a Matter of this Moment ſhould not methinks deny) I have done my part, and can be
+<pb n="111" facs="tcp:36522:62"/> content with the ſecret Approba<g ref="char:EOLhyphen"/>tion of my own, and my Friends Experience, after an Intimacy with both Methods.</p>
+               <p>As for the Forms themſelves, they were not compos'd to confine my ſelf, or any others to the uſe of them; but however 'twas conve<g ref="char:EOLhyphen"/>nient to compoſe ſome for a more lively Explication of the Method; which may be obſerv'd, without adhering to them wholly, or in part, as to the Expreſſion. This I think may reſolve all Cavils at any Expreſſions of Addreſs; if I uſe them improperly to thee, I don't uſe them ſo to God! Thou may'ſt add, or contract, as Conſcience di<g ref="char:EOLhyphen"/>rects, and yet gain benefit by the Book too: Our Method of Cloſet-Devotion ſhould ordinarily be ex<g ref="char:EOLhyphen"/>act, for the Solemnity of the Em<g ref="char:EOLhyphen"/>ployment requires it; but our Ex<g ref="char:EOLhyphen"/>preſſions need not be ſo in this Ex<g ref="char:EOLhyphen"/>erciſe, in caſe our Affections be but
+<pb n="112" facs="tcp:36522:63"/> clean and polite; and therefore conſtant Forms of Expreſſion are no leſs <hi>needleſs</hi> in private upon the account of God's conſciouſneſs to our meaning, than they are <hi>need<g ref="char:EOLhyphen"/>ful</hi> in publick, where the Inviſi<g ref="char:EOLhyphen"/>bleneſs of our Hearts may make thoſe haſty Expreſſions improper for their Obſcurity or Abuſe; and therefore culpable to Men be the Thoughts, which they are intended to repreſent, never ſo grateful to the Searcher of Hearts.</p>
+               <p>And farther, tho' we muſt not habitually neglect the Worſhip of our Tongue in private, yet ſome<g ref="char:EOLhyphen"/>times when (as 'tis oft with de<g ref="char:EOLhyphen"/>vout Perſons) the Workings of our Mind ſoar above Expreſſion: Men<g ref="char:EOLhyphen"/>tal Prayer alone is no omiſſion, but rather the more laudable. But when 'tis otherwiſe, and we are dry of ſprightly <hi>Ideas</hi> at Seaſons of Addreſs, an affecting Form of Scripture-Expreſſions may do well
+<pb n="113" facs="tcp:36522:63"/> to be at hand, ſince they may in part aſſiſt the drowſie Soul, tho' they may not wholly ſatisfie the Perſon whoſe Mind is awaken'd and enlarg'd by them.</p>
+            </div>
+            <div n="5" type="chapter">
+               <head>CHAP. V. Suitable Advice and Exhorta<g ref="char:EOLhyphen"/>tions.</head>
+               <p>LEt me now, Dear <hi>Chriſtian,</hi> in the Behalf of thy Soul, en<g ref="char:EOLhyphen"/>treat thee to uſe thy diligence in turning thy Heart to God; if it be poſſible, never venture to omit the ſolemn Duty of thy Cloſet, but be a conſtant Attendant on the King of Heaven; and be ſure before you venture to ſpeak, conſider and compoſe thy Mind to an awful Frame, and bend thy Body thrice down to the ground in Honour to the Bleſſed Trinity.</p>
+               <div n="2" type="part">
+                  <pb n="114" facs="tcp:36522:64"/>
+                  <head>2.</head>
+                  <p>In a Morning meditate on God, and let his Excellency and Mercies force thee to ſay, <hi>It is a good thing to tell of God's Loving Kindneſs in the Morning, and of his Veracity in the night Seaſon.</hi> Let this be thy Em<g ref="char:EOLhyphen"/>ployment, which is the Employ<g ref="char:EOLhyphen"/>ment of <hi>Angels</hi> and <hi>Stars</hi> innume<g ref="char:EOLhyphen"/>rable. Shall every thing but De<g ref="char:EOLhyphen"/>vils and damn'd Men praiſe God; and Man, who is a redeemable Sin<g ref="char:EOLhyphen"/>ner, neglect to give Thanks for his <hi>unſpeakable Gift,</hi> his <hi>own,</hi> his <hi>eternal,</hi> his <hi>begotten,</hi> his <hi>only</hi> Son? The dull and dumb Aſs knows how to reproach ſilence on ſuch a Theme; for he knows his <hi>Owner</hi> as well at his <hi>Crib:</hi> Certainly were thy Soul clad with that Gratitude, which is the Purple of Angels; cer<g ref="char:EOLhyphen"/>tainly didſt thou feel God enlarging thy Soul; certainly were thy Powers within 'girt ready for E<g ref="char:EOLhyphen"/>ternity, the bent of thy Soul this
+<pb n="115" facs="tcp:36522:64"/> way would be ſo irreſiſtible, that thou could'ſt never refrain not only from venting thy Praiſe, but alſo dedicating thy whole Man dai<g ref="char:EOLhyphen"/>ly to God: Withſtand the Vio<g ref="char:EOLhyphen"/>lence of all Charms but thoſe of Gratitude, which the glorious In<g ref="char:EOLhyphen"/>habitants above can't reſiſt: The ſplendid Proſpect of a Chriſtian, and his vigorous ſenſe of the Love of Chriſt conſtrains him to praiſe God, and God-man: Inceſſant Hallelujahs for Ghoſtly Victories, and inceſſant Dedication and Re<g ref="char:EOLhyphen"/>ſignation of himſelf to the Su<g ref="char:EOLhyphen"/>preme Monarch of all the Glori<g ref="char:EOLhyphen"/>fy'd Univerſes, will be the Ever<g ref="char:EOLhyphen"/>laſting <hi>Royalty</hi> and <hi>Prieſthood</hi> of a Chriſtian, and is the End of his being made at firſt, and of his being ranſom'd and ſanctify'd after he had been uncreatur'd. <hi>Let all Souls therefore laud the Lord: Let thoſe praiſe the Lord whom he has redeem'd.</hi>
+                  </p>
+               </div>
+               <div n="3" type="part">
+                  <pb n="116" facs="tcp:36522:65"/>
+                  <head>3.</head>
+                  <p>Remember, I beſeech thee, th<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> great Worth of eternal Happineſs and if it be poſſible never fail o<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> ſecuring thy ſelf ſome retiremen<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> in the heat of the Day, leſt the heat of worldly Buſineſs burn and lay waſte that Heart which was in<g ref="char:EOLunhyphen"/>tended to glow, and to be ſolac'd with the Love of God. <hi>Now</hi> it is tha<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> the World is too apt to ſway th<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> beſt, unleſs they habit themſelve<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> to the exerciſe of Vigilance. <hi>Now</hi> we had need fly to our Cloſets for ſanctuary, that we may be con<g ref="char:EOLhyphen"/>vinc'd that Man, [the meer Natu<g ref="char:EOLhyphen"/>ral Man] diſquiets himſelf in vain<g ref="char:punc">▪</g> and ſearches after Fulneſs and Sa<g ref="char:EOLhyphen"/>tisfaction in thoſe Honours and Poſſeſſions, which prove in the end but Wombs of Vexation of Spirit to all their deluded Courtiers. Ma<g ref="char:EOLhyphen"/>ny and mean Enjoyments may cloy, but the true, the ſupream Enjoy<g ref="char:EOLhyphen"/>ment only can fill an intellectual
+<pb n="117" facs="tcp:36522:65"/> 
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>nd voluntary Creature. Let this Conſideration conſtantly find room in thy Thoughts, and let this make thee wiſe in the choice of the Sub<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ect matter of thy Application to <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>he Throne of Grace. Let the <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>arnal Soul pray for Long Life <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ere, for Wealth and Dignity <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>n this Stage of a World, and the Philoſopher for Natural Know<g ref="char:EOLhyphen"/>ledge; but let a Chriſtian pray for an <hi>Eternal Kingdom,</hi> and all thoſe Qualifications which will ſecure thy Inveſtiture in it. In the uſe of theſe Petitions, thou canſt not be too earneſt, or too particular; and that thou may'ſt pray with the greater largeneſs of Soul, fre<g ref="char:EOLhyphen"/>quently meditate on the Scriptures, eſpecially on our Saviour's Sermon on the Mount, and the Parables of our Lord, with the 12th and 13th Chapters of St. <hi>Paul</hi> to the <hi>Ro<g ref="char:EOLhyphen"/>mans,</hi> and ſome parts of St. <hi>Peter</hi>'s and St. <hi>James</hi>'s, and the other E<g ref="char:EOLunhyphen"/>piſtles
+<pb n="118" facs="tcp:36522:66"/> of St. <hi>Paul,</hi> which are more uſeful for the Generality, tha<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> reading the Hiſtorical Scriptures i<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> order; tho' 'tis very uſeful in Ec<g ref="char:EOLunhyphen"/>cleſiaſtical Aſſemblies; for every thing which becomes an Aſſembly<g ref="char:punc">▪</g> is not ſo convenient for private Perſons of all Circumſtances in their Cloſets. Many Perſons have little Leiſure, and perhaps leſs Judgment, and therefore may be the worſe for too inquiſitive an uſe of ſome parts of Scripture<g ref="char:punc">▪</g> and therefore their precious Time ſhould be ſpent in Thoughtfulneſs on the plaineſt and moſt moving Scriptures, that their Souls may thrive in Grace and Divine Love. Do thou therefore daily uſe ſome of the Portions appointed by our Church for Epiſtles and Goſpels; and before thou readeſt, and after thou haſt read, both <hi>ponder</hi> and <hi>pray</hi> that that which was intended for a <hi>Savour of Life,</hi> may not prove
+<pb n="119" facs="tcp:36522:66"/> a <hi>Savour of Death</hi> by Irreverence or Negligence. God's Spirit will be an Interpreter to thoſe who con<g ref="char:EOLhyphen"/>ſult him with Simplicity, and an ingenuous readineſs of Mind to re<g ref="char:EOLhyphen"/>ceive the Truth, be it kind to their Temporal Intereſt or not; and when we read the Scriptures thus, we ſhould truſt firmly and boldly in God, that if we are patient and humble in the uſe of this Method, he will inform us clearly of all thoſe Truths, which his infinite Wiſdom knows to be convenient to be known by us, in our preſent Circumſtances. 'Tis Men's Defi<g ref="char:EOLhyphen"/>cience more or leſs, in theſe Tem<g ref="char:EOLhyphen"/>pers and Methods of handling the Scriptures, together with their da<g ref="char:EOLhyphen"/>ring Neglect of not endeavouring to keep pace in their Lives with their Light, that cauſes the different Ir<g ref="char:EOLhyphen"/>regularities of their different <hi>Creeds.</hi> Wherefore, Fellow Chriſtian, when thou uſeſt the Prayer taken out of
+<pb n="120" facs="tcp:36522:67"/> the Sermon on the Mount, take care to fix thy Mind ſo, that i<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> may be the Prayer of thy Spirit and the Epitome of thy Converſati<g ref="char:EOLhyphen"/>on: The Favours we requeſt in it are the greateſt we can ask, and are the Fruits of a large Thirſt and an aſſiduous Vigilance; do not therefore only ask, but ſeek and knock too, that thy Soul may be ſeal'd with that (no counterfeit) <hi>Arrhabon,</hi> which will be a Key to the Kingdom of Heaven. Open therefore thy Soul; and if thou canſt not yet perceive what it is to be poor in Spirit, and pure in Heart, the Bounty of God ſhall give thee this Knowledge with the Gifts themſelves.</p>
+                  <p>If the Clauſe concerning <hi>Diſtri<g ref="char:EOLhyphen"/>butions</hi> does not ſuit thy Circum<g ref="char:EOLhyphen"/>ſtances, thou may'ſt underſtand it of Spiritual Charity; or alter it thus: <hi>Lift up my Thoughts from the Earth, and fix my Heart upon Hea<g ref="char:EOLhyphen"/>venly Things.</hi>
+                  </p>
+               </div>
+               <div n="4" type="part">
+                  <pb n="121" facs="tcp:36522:67"/>
+                  <head>4.</head>
+                  <p>And now having endeavour'd to conduct thee ſafe thro' the Tem<g ref="char:EOLhyphen"/>ptations of the Day, let me entreat thee in the Evening to look into thy ſelf, and to conſider what Company thou haſt been in; what Time has been allotted for external Religious Duties: what Time for Induſtry in thy Human Calling, and to exact a ſtrict Account of the Uſe of the Whole Day's Time. And do not paſs thy Sentence ac<g ref="char:EOLhyphen"/>cording to ſome external Warineſs, or Unwarineſs, but according to the Biaſs of thy Mind. Outward Warineſs, without the Renova<g ref="char:EOLhyphen"/>tion of the Mind, ſignifies nothing: Let this be truly rectify'd, and 'tis morally impoſſible that a Man ſhould be guilty of any imputable Degrees of Incircumſpection. Be not over raſh in judging of thy ſelf, leſt thou be found at laſt among that <hi>Generation, who are pure in their
+<pb n="122" facs="tcp:36522:68"/> own eyes,</hi> tho' <hi>they are not cleans'd from their Filthineſs.</hi> There are Three ſorts of unclean Men in the World: Some that are ſo unclean and wicked, that, tho' the Conſide<g ref="char:EOLhyphen"/>ration of the ſtate of their Souls has no dwelling in their Thoughts, yet cannot but know their own Un<g ref="char:EOLhyphen"/>cleanneſs; theſe know it, but lay it not ſo truly to heart, as is neceſ<g ref="char:EOLhyphen"/>ſary for their Purification. Others there are, who labour under De<g ref="char:EOLhyphen"/>grees of voluntary Uncleanneſs, which cannot be conſiſtent with a ſtate of Salvation, even according to the gracious Covenant of the Goſpel. But this is a Secret to them, becauſe they have not exa<g ref="char:EOLhyphen"/>min'd themſelves ſo carefully as they ought. Others again there are, who notwithſtanding ſtrict Catechizings of Conſcience, are unclean in certain Degrees in the Eyes of God, but not of God-Man, of the Conſcience under the
+<pb n="123" facs="tcp:36522:68"/> Law, but not of Faith under the Goſpel; which they know in gene<g ref="char:EOLhyphen"/>ral, and therefore aſcribe Righte<g ref="char:EOLhyphen"/>ouſneſs to their Maker, and Him only; but that cannot explain Par<g ref="char:EOLhyphen"/>ticulars; ſo myſteriouſly deep is the Corruption of our Human Na<g ref="char:EOLhyphen"/>ture! This Uncleanneſs would ex<g ref="char:EOLhyphen"/>clude from Heaven, were it not for Chriſt's Death. But now it ſhall not exclude thoſe that are truly humble &amp; induſtrious to be at peace with God; for ſuch are unclean in the Creator's ſight, but not in the Mediator's. All of theſe always were and are ſtill unclean, but the laſt alone daily become leſs ſo: They are all unclean, but not in the ſame degree, nor alike ſenſible of, nor affected to it: One neither re<g ref="char:EOLhyphen"/>pents of known nor ſecret Impurity; the other repents of known Impurity, but knows not as much as he might, were he very diligent in ſearch; and therefore is
+<pb n="124" facs="tcp:36522:69"/> guilty of his ſecret Sins: But the other is not guilty of known or ſe<g ref="char:EOLhyphen"/>cret Uncleanneſs; for the known is ſavingly repented of, and the Secret is ſecret only becauſe it can't be yet known by the Soul, altho' it ſearcheth daily and dili<g ref="char:EOLhyphen"/>gently. Whatever degree of Un<g ref="char:EOLhyphen"/>cleanneſs is not owing to obſtinate Self-negligence, is waſh'd away by the Blood of Jeſus, if there be but a general Repentance for them. Here then is encouragement for a Soul to labour to be as clean as i<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> can; for then all ſecret Degrees o<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> Uncleanneſs will be remitted fo<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> humble Deprecation, and wholly remov'd in another World. If we are of the firſt ſort, we have the great Work of Repentance to be<g ref="char:EOLhyphen"/>gin; and yet 'tis much more dif<g ref="char:EOLhyphen"/>ficult, after it has been begun, to be compleated: No Devotions are aſſign'd for them; for they, whilſ<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> ſuch, will uſe none. If we are o<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                     <pb n="125" facs="tcp:36522:69"/> the ſecond, we muſt probe our Hearts with ſevere Cancinations of Conſcience, that we may know more of our ſelves, and loath and deſpiſe our ſelves more, as we de<g ref="char:EOLhyphen"/>ſerve. The Firſt Evening Office of Repentance for deliberate Sins may claſp with their caſe. If we are of the Third, we are wary Chriſtians; only let us be thankful, and be kept humble and watchful by our ſecret Faults, and it ſhall be well with us indeed.</p>
+               </div>
+               <div n="5" type="part">
+                  <head>5.</head>
+                  <p>But tho' in the <hi>Embryo</hi> of Re<g ref="char:EOLhyphen"/>pentance, the Penitent may cloſe the Day with the Firſt Evening Of<g ref="char:EOLhyphen"/>fice, yet ſomething more ſolemnly, if Life laſt, muſt be perform'd with ſpeed; for which purpoſe, there is a large diſtinct Penitential Of<g ref="char:EOLhyphen"/>fice deſign'd. 'Till that is pub<g ref="char:EOLhyphen"/>liſh'd, I ſhall content my ſelf with this Addreſs to the Impenitent: Why will ye trample on Opportu<g ref="char:EOLhyphen"/>nity,
+<pb n="126" facs="tcp:36522:70"/> and fight with wonderful Mercy? Are ye ſtronger than God? Is his Hand ſhortned that he cannot puniſh, becauſe his Compaſſion has hitherto been prolong'd to you? Wherefore do ye ſpend your Mo<g ref="char:EOLhyphen"/>ney, for that which is not Bread, and your Labour for that which ſatiſ<g ref="char:EOLhyphen"/>fies not? Encline your Ears and bow your necks to Chriſt, and your Souls ſhall live. Then there will be no need, as now, to skip from Attempt to Attempt; for the Grace of God compleated in the Soul will give ſatisfaction that wants no change, nor new uncer<g ref="char:EOLhyphen"/>tain Trials. O ſeek the Lord while he may be found; call upon him while he is near; forſake all your wicked Ways and unrighteous Thoughts; return unto the Lord, and he ſhall return unto you, for ſuch he will abundantly pardon; for his Thoughts are not as the Thoughts of Men, nor his Ways
+<pb n="127" facs="tcp:36522:70"/> as our Ways; for as the Rain comes down and the Snow from the Clouds, and returns not thi<g ref="char:EOLhyphen"/>ther, but watereth the Earth, and wakes it bud and bring forth, ſo that it gives Seed to the Sower, and <hi>that Bread</hi> to the Eater; ſo ſhall his Word <hi>that</hi> goes forth concern<g ref="char:EOLhyphen"/>ing a tender, contrite, lowly, hun<g ref="char:EOLhyphen"/>gry, relenting Soul; not return un<g ref="char:EOLhyphen"/>to him void, but ſhall accompliſh that Paradiſe of Graces, which was intended: Inſtead of a Curſe, and that flaming Sword of a terrible Cherub within, [an horrible Expe<g ref="char:EOLhyphen"/>ctation of Vengeance] there <hi>ſhall</hi> ariſe a proſpect of an eternal King<g ref="char:EOLhyphen"/>dom: Inſtead of the Thorns ſhall the Firr-tree come forth, and in<g ref="char:EOLhyphen"/>ſtead of Briars the Myrtle: Where Scepticiſm and Infidelity, where Doubts and Darkneſs had tyran<g ref="char:EOLhyphen"/>niz'd before; Light and Alacrity, Faith and Hope, Charity and Puri<g ref="char:EOLhyphen"/>ty, ſhall banquet the Soul with Di<g ref="char:EOLhyphen"/>vine
+<pb n="128" facs="tcp:36522:71"/> Refreſhments. Be wiſe there<g ref="char:EOLhyphen"/>fore, ye thoughtleſs; be chang'd, ye impenitent; let the time paſt ſuf<g ref="char:EOLhyphen"/>fice every one of you to have ſpoke, and thought, and underſtood, and acted as a Child: Why will ye die, O Children of Men, and not try to become the Children of God? How is it that ye can thus ſottiſhly be contented to hug Ruine, and to ſprawl in your Blood? Or can you conceive nothing beyond this ſtate? Nay, my Brethren, if God and a future Judgment be quite out of your Thoughts, or Damnation, tho' in your Thoughts, can't wake you, 'tis not for me to pretend to raiſe the Dead; you are paſt the help of the hands of Man, and therefore I ſurrender you into the hands of God, whoſe ways are unſearchable, and like the great Deep. He is the Lord of Poſſibility, and ſpans Eter<g ref="char:EOLhyphen"/>nity with a Glance. He of old ſaid, <hi>Hoſts of Angels exiſt;</hi> and
+<pb n="129" facs="tcp:36522:71"/> behold they <hi>were; Let there be Light,</hi> and there was Light; and who will ſay, <hi>Come forth ye Dead,</hi> at the ſig<g ref="char:EOLhyphen"/>nal Cataſtrophe of Time and Op<g ref="char:EOLhyphen"/>portunity, and they ſhall ariſe. This ſame God of Might, let him but ſay to a hardned Soul, <hi>Receive the ori<g ref="char:EOLhyphen"/>ginal Senſations of a Soul, be alive once more, as holy Angels and Saints are alive;</hi> and inſtead of a Temple in heaps, the Divine Spirit of the Man in leſs than three moments ſhall be rebuilt, and become a Palace fit for the Spirit to reſide in, and An<g ref="char:EOLhyphen"/>gels to gaze on with wonder and delight. All this may be done, and at the laſt Gaſp too; and perhaps has been done for a Confeſſor of Chriſt, after he was forſook by Diſciples, when ridicul'd by Multi<g ref="char:EOLhyphen"/>tudes on a Croſs, and before the ſuppos'd Impoſture roſe from the dead; all this, I ſay, may be done for the firſt (ſtrictly ſpeaking) Di<g ref="char:EOLhyphen"/>ſciple of the Crucify'd Jeſus, and
+<pb n="130" facs="tcp:36522:72"/> may perhaps ſtill be done for ſome Perſons in peculiar Circumſtances, foreſeen only by God. But is this thy caſe? Is it likely to be ſuch? Haſt thou not the general Rule, <hi>This do, and live,</hi> before thee? and wilt thou preſume to deferr thy Repentance preſumptuouſly, rely<g ref="char:EOLhyphen"/>ing on a Miracle of Grace, which is not certain to thee, tho' poſſible to God? What God may do for any daring Sinner who may read this, I know not; but this I know and dare affirm, That, ſetting aſide mi<g ref="char:EOLhyphen"/>raculous Changes of Soul; Abuſe of Opportunity, continu'd to a dying Hour, is ſowing the Wind, and will reap the Whirlwind of the everla<g ref="char:EOLhyphen"/>ſting Vengeance of the Almighty.</p>
+               </div>
+               <div n="6" type="part">
+                  <head>6.</head>
+                  <p>And now, true and faithful Diſciples of Chriſt, thoſe little ones whom Angels ho<g ref="char:EOLhyphen"/>nour, Devils envy, and a perverſe Genera<g ref="char:EOLhyphen"/>tion oppoſes and derides, I cannot conclude till I have ſaid, I gratulate your Souls, thoſe <hi>Edens</hi> of God; yea, from my Heart I gra<g ref="char:EOLhyphen"/>tulate
+<pb n="131" facs="tcp:36522:72"/> their Converſion, their Paſſage from Darkneſs and Bondage, to the marvellous Light and Liberty of the Sons of God: And do ye gratulate and emulate each others Vertues: Be courteous to all Men; excel your ſelves, and conſort much together; unite your Love and Force, againſt united Malice, Dangers, and Temptations: Be pa<g ref="char:EOLhyphen"/>tient and watchful, if it be poſſible, allow<g ref="char:EOLhyphen"/>ing the Polity of Darkneſs no advantage by thoughtleſsneſs, or immoderate thoughts of your ſelves, or contempt of others: Let no Terror, no Flattery, cauſe you to do that which will diſturb your Peace, and grieve <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>hat great Spirit, whoſe ſelect Veſſels ye <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>re. Remember the Promiſes of God are <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ot <hi>Yea</hi> and <hi>Nay.</hi> Quit your ſelves Man<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ully in the Day of Battel; die Conque<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ors, and enter into your Great Maſters's <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>oy, when he ſhall come in his Fathers, and <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>he Glory of his Holy Angels.</p>
+                  <p>
+                     <hi>And ſince he is the Author of all Re<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>onciliation, Affiance, Perſeverance, and Plerophory in Man; ſince by no other Name loſt Man is become capable of Salvation; ſince without him no De<g ref="char:EOLhyphen"/>ſign can proſper, I commit you, with my ſelf, to his Conduct, and my poor
+<pb n="132" facs="tcp:36522:73"/> Endeavour to promote Souls to his Ac<g ref="char:EOLhyphen"/>ceptance and Bleſſing.</hi>
+                  </p>
+                  <p>
+                     <hi>In him let us truſt; to him with ho<g ref="char:EOLhyphen"/>ly Triumph of Soul aſcribe we: O let us be glad and rejoice, and give Honour unto him, and ſay, Thou art worthy, O Lord, to receive Glory, and Honour and Power; for thou haſt created a<gap reason="illegible" resp="#MURP" extent="2 letters">
+                           <desc>••</desc>
+                        </gap> things; and for thy pleaſure they ar<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> and were created: Worthy is the Lamb that was ſlain to receive Power, and Riches, and Wiſdom, and Strength<g ref="char:punc">▪</g> and Honour, and Glory, and Bleſſing<g ref="char:punc">▪</g> For thou waſt ſlain, and haſt redeeme<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> us unto God, by thy Blood, out of ever<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> Kindred, and Tongue, and People, an<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> Nation.</hi>
+                  </p>
+                  <p>
+                     <hi>Bleſſing, Honour, Glory, and Power be unto him that ſitteth on the Throne and to the Lamb for ever and ever.</hi>
+                  </p>
+                  <closer>Glory be to the Father, and to t<gap reason="illegible" resp="#MURP" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> Son, and to the Holy Ghoſt. As it was in the beginning, is no<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> and ever ſhall be, World witho<gap reason="illegible" resp="#MURP" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> end. Amen.</closer>
+               </div>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
